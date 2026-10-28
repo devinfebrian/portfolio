@@ -1,397 +1,320 @@
 ---
-name: Devin Febrian — Field Archive
-description: A single-page portfolio built as a recovered case file from a night archive.
+name: Devin Febrian — The Febrian Prophet
+description: A portfolio published as a wizarding broadsheet, with living photographs and a lit press room behind the page.
 colors:
-  ink: "#080a07"
-  carbon-frame: "#0d0f0b"
-  carbon-trace: "#14160f"
-  paper: "#e8e1d0"
-  paper-ink: "#1a1c16"
-  stock-file-01: "#e2dac7"
-  stock-file-02: "#d6cbb4"
-  stock-file-03: "#cfc5ae"
-  stock-kit: "#d3d4bf"
-  manila-flap-01: "#c2b79f"
-  manila-flap-02: "#b7ab92"
-  manila-flap-03: "#a89c83"
-  manila-tab: "#b59a62"
-  manila-mobile: "#b9ad94"
-  red: "#a7362a"
-  red-bright: "#bd4436"
-  red-deep: "#6f231a"
-  red-ink: "#7f231b"
-  lamp-green: "#93a67c"
-  rule: "rgb(232 225 208 / 0.16)"
-  rule-strong: "rgb(232 225 208 / 0.3)"
+  ink: "#17140e"
+  ink-soft: "#3d3629"
+  ink-faint: "#6b5f4b"
+  paper: "#efe4cb"
+  paper-deep: "#e4d5b6"
+  paper-dark: "#d7c6a3"
+  red: "#9d2c1f"
+  red-bright: "#b53b27"
+  desk: "#1b1610"
+  scene-clear: "#bd966b"
+  scene-sheet: "#fff4de"
+  rule: "rgb(23 20 14 / 0.34)"
+  rule-soft: "rgb(23 20 14 / 0.16)"
+  rule-faint: "rgb(23 20 14 / 0.09)"
 typography:
-  display:
-    fontFamily: "Helvetica Neue Condensed, Helvetica Condensed, Archivo Narrow, Arial Narrow, Arial, sans-serif"
-    fontSize: "clamp(4rem, 8vw, 6rem)"
-    fontWeight: 700
+  masthead:
+    fontFamily: "Besley, Iowan Old Style, Times New Roman, serif"
+    fontSize: "clamp(2.65rem, 8.2vw, 7.6rem)"
+    fontWeight: 900
     lineHeight: 0.83
     letterSpacing: "-0.025em"
   section:
-    fontFamily: "Helvetica Neue Condensed, Helvetica Condensed, Archivo Narrow, Arial Narrow, Arial, sans-serif"
-    fontSize: "clamp(2.2rem, 4.5vw, 3.5rem)"
-    fontWeight: 700
-    lineHeight: 0.95
-    letterSpacing: "-0.015em"
-  exhibit-title:
-    fontFamily: "Helvetica Neue Condensed, Helvetica Condensed, Archivo Narrow, Arial Narrow, Arial, sans-serif"
-    fontSize: "clamp(2.6rem, 5vw, 4.2rem)"
-    fontWeight: 700
-    lineHeight: 0.84
-    letterSpacing: "-0.02em"
-  lead:
-    fontFamily: "Helvetica Neue Condensed, Helvetica Condensed, Archivo Narrow, Arial Narrow, Arial, sans-serif"
-    fontSize: "clamp(2.5rem, 5vw, 4.4rem)"
-    fontWeight: 700
+    fontFamily: "Besley, Iowan Old Style, Times New Roman, serif"
+    fontSize: "clamp(2.3rem, 5.2vw, 5.2rem)"
+    fontWeight: 900
     lineHeight: 0.9
-    letterSpacing: "-0.02em"
+    letterSpacing: "-0.025em"
+  lead:
+    fontFamily: "Besley, Iowan Old Style, Times New Roman, serif"
+    fontSize: "clamp(2.4rem, 4.1vw, 4.4rem)"
+    fontWeight: 700
+    lineHeight: 0.93
+    letterSpacing: "-0.025em"
+  story-title:
+    fontFamily: "Besley, Iowan Old Style, Times New Roman, serif"
+    fontSize: "clamp(2.5rem, 6vw, 5.8rem)"
+    fontWeight: 900
+    lineHeight: 0.9
+    letterSpacing: "-0.03em"
   body:
-    fontFamily: "Neue Frutiger, Open Sans, Segoe UI, Arial, sans-serif"
+    fontFamily: "Newsreader, Georgia, Times New Roman, serif"
     fontSize: "1rem"
     fontWeight: 400
     lineHeight: 1.6
     letterSpacing: "0em"
   copy:
-    fontFamily: "Neue Frutiger, Open Sans, Segoe UI, Arial, sans-serif"
-    fontSize: "0.92rem"
+    fontFamily: "Newsreader, Georgia, Times New Roman, serif"
+    fontSize: "0.98rem"
     fontWeight: 400
-    lineHeight: 1.64
+    lineHeight: 1.68
     letterSpacing: "0em"
   label:
-    fontFamily: "ITC American Typewriter, American Typewriter, Courier Prime, Courier New, monospace"
-    fontSize: "0.56rem"
+    fontFamily: "Courier Prime, Courier New, monospace"
+    fontSize: "0.57rem"
     fontWeight: 400
     lineHeight: 1.45
-    letterSpacing: "0.14em"
+    letterSpacing: "0.09em"
   tag:
-    fontFamily: "Kairos Sans, Rajdhani, IBM Plex Sans, Arial, sans-serif"
-    fontSize: "0.56rem"
+    fontFamily: "Archivo Narrow, Arial Narrow, Arial, sans-serif"
+    fontSize: "0.57rem"
     fontWeight: 600
     lineHeight: 1.3
     letterSpacing: "0.1em"
 rounded:
   square: "0px"
-  knot: "50%"
 spacing:
   hair: "1px"
-  tick: "0.35rem"
-  rung: "0.6rem"
-  row: "0.85rem"
-  block: "1.2rem"
-  section: "clamp(2rem, 4vw, 3rem)"
-  sheet: "clamp(1.3rem, 3vw, 2.7rem)"
-  chapter-y: "clamp(4.5rem, 10vh, 8rem)"
-  chapter-x: "clamp(2rem, 7vw, 7rem)"
-  rail-gutter: "clamp(3rem, 22vw, 14rem)"
+  row: "0.55rem"
+  block: "0.9rem"
+  gutter: "clamp(1.6rem, 4.5vw, 4.6rem)"
+  chapter: "clamp(2.5rem, 5vw, 4.4rem)"
+  fold: "clamp(1.2rem, 3vw, 2.6rem)"
+  edition: "min(calc(100% - clamp(1.5rem, 7vw, 7rem)), 1600px)"
 components:
-  anchor-primary:
+  front-action:
     backgroundColor: "{colors.red}"
     textColor: "{colors.paper}"
     rounded: "{rounded.square}"
-    padding: "0.85rem 1.05rem"
+    padding: "0.78rem 0.95rem"
     typography: "{typography.label}"
-  anchor-primary-hover:
-    backgroundColor: "{colors.red-bright}"
+  front-action-hover:
+    backgroundColor: "{colors.ink}"
     textColor: "{colors.paper}"
     rounded: "{rounded.square}"
-  control-ghost:
-    backgroundColor: "rgb(8 10 7 / 0.28)"
-    textColor: "rgb(232 225 208 / 0.72)"
+  section-tab:
+    textColor: "{colors.ink-faint}"
     rounded: "{rounded.square}"
-    padding: "0.35rem 0.6rem"
-    height: "1.9rem"
+    padding: "0 0.2rem"
     typography: "{typography.label}"
-  control-ghost-pressed:
-    backgroundColor: "rgb(167 54 42 / 0.14)"
-    textColor: "{colors.paper}"
+  section-tab-active:
+    textColor: "{colors.ink}"
     rounded: "{rounded.square}"
-  nav-link:
-    textColor: "rgb(232 225 208 / 0.58)"
-    padding: "0.32rem 0"
+  press-switch:
+    backgroundColor: "transparent"
+    textColor: "{colors.ink-soft}"
+    rounded: "{rounded.square}"
+    padding: "0.28rem 0.55rem"
+    height: "1.85rem"
     typography: "{typography.label}"
-  nav-link-active:
-    textColor: "{colors.paper}"
-  sheet:
+  press-switch-on:
+    backgroundColor: "rgb(157 44 31 / 0.08)"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.square}"
+  page:
     backgroundColor: "{colors.paper}"
-    textColor: "{colors.paper-ink}"
-    padding: "{spacing.sheet}"
+    textColor: "{colors.ink}"
     rounded: "{rounded.square}"
-  exhibit-sheet:
-    backgroundColor: "{colors.stock-file-01}"
-    textColor: "{colors.paper-ink}"
-    padding: "clamp(1.8rem, 3.4vw, 2.9rem) clamp(1.3rem, 4vw, 3.2rem)"
+    padding: "{spacing.gutter}"
+  column-note:
+    textColor: "{colors.ink-faint}"
     rounded: "{rounded.square}"
-  kit-sheet:
-    backgroundColor: "{colors.stock-kit}"
-    textColor: "{colors.paper-ink}"
-    padding: "clamp(1.2rem, 3vw, 2rem)"
-    rounded: "{rounded.square}"
-  folder-tab:
-    backgroundColor: "{colors.manila-tab}"
-    textColor: "#2b271d"
-    padding: "0.38rem 0.8rem"
-    typography: "{typography.label}"
-  evidence-plate:
-    backgroundColor: "{colors.carbon-frame}"
-    textColor: "#c2bdaa"
-    padding: "0.45rem"
-    rounded: "{rounded.square}"
-  tag-chip:
-    backgroundColor: "rgb(255 255 255 / 0.18)"
-    textColor: "#3f4132"
-    rounded: "{rounded.square}"
-    padding: "0.3rem 0.45rem"
-    typography: "{typography.tag}"
-  stamp:
-    textColor: "{colors.red}"
-    padding: "0.32rem 0.45rem 0.38rem"
-    rounded: "{rounded.square}"
-    typography: "{typography.tag}"
-  ledger-row:
-    textColor: "rgb(232 225 208 / 0.72)"
-    padding: "1rem 0.15rem"
-    rounded: "{rounded.square}"
-  ledger-row-hover:
+    padding: "0.75rem 0 0"
+    typography: "{typography.copy}"
+  proof-block:
+    backgroundColor: "{colors.ink}"
     textColor: "{colors.paper}"
-    padding: "1rem 0.15rem 1rem 0.65rem"
     rounded: "{rounded.square}"
+    padding: "1rem 1.1rem"
+  channel-row:
+    textColor: "{colors.ink-soft}"
+    rounded: "{rounded.square}"
+    padding: "0.9rem 0.15rem"
+    typography: "{typography.copy}"
 ---
 
-# Design System: Devin Febrian — Field Archive
+# Design System: Devin Febrian — The Febrian Prophet
 
 ## Overview
 
-**Creative North Star: "The Recovered Case File"**
+**Creative North Star: "The Living Morning Edition"**
 
-The page is not a portfolio with a theme applied; it is an artifact with a provenance problem. A carbon corridor recedes into fog behind every screen, and the content sits on physical sheets of bone paper laid over it — dossier cover, intake form, exhibit folders, field-kit sheet, checkout ledger. The visitor is reading a file that was pulled from an archive at night, not being sold a service. That single premise decides the material system: light exists only where paper exists, dark is steel and shadow, and red is the case examiner's ink.
+The portfolio is not a website wearing newsprint; it is one edition of a wizarding broadsheet, laid on a lit press-room desk. The dominant material is warm paper: a full-height sheet printed in black ink with one oxblood accent. Behind it, and visible only in the margins and between the printed sheets, the scene holds a wooden desk, a lit wall, and loose copies of the same paper. The reader is holding the edition, not browsing a product page.
 
-Density is editorial rather than sparse. Every sheet carries institutional furniture — file lines, case IDs, filing columns, numbered findings, signature rows, footnotes — set in four voices: condensed display for names and signage, typewriter for index and case metadata, a humanist body for reading, and a condensed technical face for measurements and tags. Sheets are tilted by fractions of a degree and layered with soft downward shadow so they read as stacked paper rather than as UI cards. There is no glow, no gore, no game imagery, no glassmorphism, and no rounded corner anywhere in the build.
+The page is organised as newspaper furniture rather than cards. A centred masthead and edition line open the front page; the lead story, a living photograph, and a printed contents column share the first viewport as three tracks. Chapters below are broadsheet departments (Statement, Portfolio, Workshop, Letters), separated by fold bands and each carrying a folio and section letter. Every article uses headline, italic deck, byline rule, drop cap, numbered findings, and a working-set line. There are no rounded cards, no glass, no glowing borders, and no icon tiles.
 
-Motion is the room, not the content. A scroll-driven camera dollies down the corridor, dust drifts, one fluorescent lamp flickers, and the red thread pinned to the right edge fills as the page advances. Reveals are short and physical (a sheet settling, a folder unfolding). All of it yields at once to `prefers-reduced-motion`, which freezes the camera at the top of the corridor, steadies the lamp, and drops every transition to effectively zero.
+Movement is the paper's own: a fold lip opens as a section enters, a living photograph develops once and answers the pointer, and the press-room camera drifts with the scroll. Sound is a press-room bed that starts only when asked. Every motion collapses under `prefers-reduced-motion`, where the content remains exactly as legible.
 
 **Key Characteristics:**
-- Two material families only: carbon ground (#080a07) and paper stocks (#e8e1d0 plus four tinted stocks).
-- One accent: case red (#a7362a) used as stamp, tick, rule, and one solid anchor.
-- Four type families, each with a fixed job; no fifth voice.
-- Zero corner radius; the only curve is the 5px scroll-thread knot.
-- Structural furniture on every surface: file lines, case IDs, filing columns, footnotes.
-- Fixed chrome: masthead above, index rail left, red scroll thread right.
-- Depth from layered soft shadow under paper, never from glow or gradient borders.
-- Decorative 3D is `aria-hidden`, `pointer-events: none`, and has a flat gradient fallback.
-
-### Where the build departs from the direction contract
-
-The direction contract is the record of intent; these are the places the shipped build reads differently. They are noted, not corrected.
-
-- **Display scale.** The contract asks for the name at roughly 9vw. The build caps it at `clamp(4rem, 8vw, 6rem)`, so the name stops at 96px on wide screens (about 7.7vw at 1250px and up) and is set as two stacked lines, "DEVIN" over "FEBRIAN", rather than one line.
-- **The green lamp.** The contract's "one fluorescent green lamp" exists only inside the WebGL scene (#93a67c fixture, #a8c294 light spill, #8fa87a wall lamp, #9fb58a panel). It never enters the CSS palette: `--green` and `--green-dim` are declared in `src/styles.css` and referenced by nothing.
-- **Seven unreferenced custom properties.** `--ink-soft`, `--steel`, `--paper-warm`, `--paper-dim`, `--green`, `--green-dim`, `--brass` are declared and never used by name. The paper and manila stocks those tokens were meant to hold are hard-coded literals inside component rules (`.exhibit`, `.exhibit--02`, `.exhibit--03`, `.kit-sheet`, `.cover__tab`, `.exhibit__tab`). The palette is therefore half-tokenized; the paper family is recorded here as tokens for the first time.
-- **The intake form is not a form.** The contract calls it an intake form; the build is a printed form sheet — a definition list of subject fields, a statement with a drop cap, a signature block, and a DF watermark. There are no inputs, no validation, and no form state anywhere in the build, and no input component exists to document.
-- **Typefaces.** The four specified faces ship as open stand-ins (Archivo Narrow for Helvetica Condensed, Courier Prime for American Typewriter, Open Sans for Neue Frutiger, Rajdhani for Kairos Sans). The CSS stacks name the commercial faces first so licensed installs take precedence; the footer discloses the substitutions.
-- **Marks.** Arrows and the disclosure mark are set as text glyphs (↗, ↓, +) in the built components rather than drawn. Recorded as a defect the build carries, not as system language.
-- **One hard edge.** The cover anchor carries `0 3px 0 var(--red-deep)` — a single hard offset edge in an otherwise soft, two-layer shadow world. It belongs to that anchor only and is not a system elevation step.
-- **Smallest type.** The label step is 0.56rem (8.96px) and carries real case metadata across the build. It is the record of what is built, not a floor to reproduce in new surfaces.
+- One ground: warm newsprint (`#efe4cb`) carrying near-black ink (`#17140e`).
+- One accent: oxblood (`#9d2c1f`), used for stamps, folios, marks, one front-page action, and hover ink.
+- Four type voices with fixed jobs: Besley (masthead/headlines), Newsreader (reading), Courier Prime (metadata), Archivo Narrow (technical labels).
+- Zero corner radius; the only curves are the circular press-sound bars.
+- Page furniture on every section: edition line, section letter, folio, fold band, dog-ear.
+- A true three-column front page: story, living photograph, contents.
+- Depth from a lit desk, page edge shadow, and a folded corner; no glow or glass.
+- Decorative R3F scene is `aria-hidden`, pointer-events none, and has a flat fallback.
 
 ## Colors
 
-An archive palette: near-black carbon ground, five paper stocks, manila card, and a single case red with a lamp green that lives only in the 3D room.
+A drenched newsprint palette: one warm paper family, a warm ink family, and a single oxblood accent.
 
 ### Primary
-- **Case Red** (#a7362a): the examiner's ink and the page's only accent. Stamps (`FILE 09`, `CASE OPEN`), the active index tick, the scroll thread, the `OPEN THE EXHIBITS` anchor fill, finding numerals, and every link hover. Because it is the only saturated field, a red element reads as an instruction.
-- **Case Red Bright** (#bd4436): hover and focus states only — the anchor's hover fill and the global `:focus-visible` ring. It exists so state changes stay inside the red family instead of shifting hue.
-- **Case Red Deep** (#6f231a): the 3px hard edge under the cover anchor. Unused elsewhere.
-- **Case Red Ink** (#7f231b): the small printed red — exhibit numbering, filing status, the mobile kit's evidence column. Slightly darker than Case Red so it holds up on paper stocks.
-
-### Secondary
-- **Manila Tab** (#b59a62): the folder tab that sits above each exhibit and the manila family's saturated member. It is the only tab colour that appears against the dark ground rather than against paper.
-- **Manila Flap 01–03** (#c2b79f, #b7ab92, #a89c83): the three vertical file tabs peeking from behind the dossier cover, one shade darker each so the stack reads as physical depth.
-- **Manila Mobile** (#b9ad94): the same tab stack expressed as a three-column strip at the bottom of the cover on small screens.
-
-### Tertiary
-- **Lamp Green** (#93a67c): the fluorescent room. Appears as the emissive ceiling fixture and its point-light spill in the corridor; it is the only cool-family colour in the system and never touches a UI surface.
+- **Oxblood Ink** (`#9d2c1f`): the edition's only saturated colour. It fills the front-page action, colours the section marks and active underline, the photo plate number, drop caps, findings numerals, stamps, the scroll marker, and the "Reply requested" stamp. It never colours running body copy.
+- **Oxblood Bright** (`#b53b27`): reserved for the rare state change where red itself must respond; the palette does not introduce a second hue.
 
 ### Neutral
-- **Archive Ink** (#080a07): page ground, masthead fill, WebGL scene background, and fog. The default canvas for everything that is not paper.
-- **Carbon Frame** (#0d0f0b): the mat behind every evidence plate — a screenshot is always set on carbon, never on paper.
-- **Carbon Trace** (#14160f): the terminal block that replaces a screenshot where none exists (the Download Sorter sort map).
-- **Bone Paper** (#e8e1d0): the primary sheet stock — dossier cover, intake sheet, all body type on paper.
-- **Paper Ink** (#1a1c16): type on paper — the default ink for every sheet, the drop cap's neighbour, and the display signature at the foot of the intake statement.
-- **File Stock 01–03** (#e2dac7, #d6cbb4, #cfc5ae): the three exhibit folders, cooling and darkening by file number so the archive reads as a sequence rather than a repeated card.
-- **Field Kit Stock** (#d3d4bf): a cooler, greyer paper reserved for the capability table, distinguishing reference material from case evidence.
-- **Hairline Rule** (`rgb(232 225 208 / 0.16)`) and **Strong Rule** (`rgb(232 225 208 / 0.3)`): every divider on the dark ground. Rules are always hairline-thin and almost always horizontal; the paper side uses ink alphas instead.
+- **Edition Paper** (`#efe4cb`): the full-bleed ground and every printed surface. Paper is the only large light field in the system.
+- **Paper Deep** (`#e4d5b6`): photo mats, fold lips, and shaded paper edges.
+- **Paper Dark** (`#d7c6a3`): the shadowed half of a folded corner and the darkest paper tint.
+- **Press Ink** (`#17140e`): the masthead, headlines, body ink, rule ends, and the printer's proof block.
+- **Ink Soft** (`#3d3629`): reading copy and prose where full black would stiffen the page.
+- **Ink Faint** (`#6b5f4b`): captions, folios, labels, and secondary metadata.
+- **Desk** (`#1b1610`): the CSS fallback behind the WebGL scene, beyond the paper's edge.
+- **Press Room Clear** (`#bd966b`): the R3F scene's warm clear colour. It is a scene value, not a DOM background.
+- **Loose Sheet** (`#fff4de`): the lit face of floating papers in the R3F scene.
+- Hairline rules use ink at 34%, 16%, and 9% alpha.
 
 ### Named Rules
-**The Paper Is the Only Light Rule.** Paper stocks are the only light surfaces in the system. No dark card sits on a sheet, no light card floats on the corridor, and no surface is translucent. If an element needs a light background, it is a sheet with a stock, a tilt, and a shadow.
+**The Paper Ground Rule.** Paper owns the page. Do not place dark cards on the edition, translucent panels over it, or full-bleed dark sections inside the broadsheet; dark appears only as ink on paper or as the desk beyond the sheet edge.
 
-**The One Red Rule.** Case red covers under ten percent of any screen and appears only as stamp, tick, hairline, numeral, thread, or the single solid anchor. It never fills a text block, never colours body copy, and never appears twice as two solid fields in one viewport.
-
-**The Lamp Rule.** Lamp green belongs to the 3D room. It is never applied to text, borders, chips, or states in the DOM; the only green a user reads is light falling on concrete.
+**The One Oxblood Rule.** Oxblood covers less than ten percent of a viewport and appears as mark, rule, stamp, numeral, or one solid action. It is never a background for reading copy and never appears as two competing solid fields.
 
 ## Typography
 
-**Display Font:** Archivo Narrow (with Helvetica Neue Condensed / Helvetica Condensed / Arial Narrow ahead of it in the stack)
-**Body Font:** Open Sans (with Neue Frutiger / Segoe UI / Arial ahead of it)
-**Label Font:** Courier Prime (with ITC American Typewriter / American Typewriter ahead of it) — the typewriter voice
-**Technical Font:** Rajdhani (with Kairos Sans / IBM Plex Sans ahead of it) — measurements, tags, filing data
+**Display Font:** Besley (with Iowan Old Style / Times New Roman fallback)
+**Body Font:** Newsreader (with Georgia fallback)
+**Metadata Font:** Courier Prime (typewritten newspaper hand)
+**Technical Font:** Archivo Narrow (working-set and table labels)
 
-**Character:** Four voices with no overlap. The condensed bold display is signage — uppercase, tightly stacked, negative-tracked, set to read as a stamped institutional name. The typewriter voice is the archivist's hand: everything that is metadata, index, case ID, caption, or footnote. The humanist body is the only voice allowed to be comfortable, and it is the only voice set for long reading. Rajdhani is the cold instrument voice for stack tags, capability names, and file numbers.
-
-All four are self-hosted through Fontsource: Archivo Narrow 400/600/700, Courier Prime 400/700, Open Sans 400/500/600, Rajdhani 500/600/700. No network font calls, no system-font display face.
+**Character:** Besley is a nineteenth-century newsprint display face: heavy, high-contrast, and built to survive ink spread at large sizes. Newsreader supplies a genuine reading face with a compact ch; Courier Prime handles the datelines and captions that a newsroom would have typed; Archivo Narrow gives the working-set lists a colder institutional texture without becoming a fifth voice.
 
 ### Hierarchy
-- **Display** (700, `clamp(4rem, 8vw, 6rem)`, line-height 0.83, letter-spacing -0.025em, uppercase): the `DEVIN / FEBRIAN` name on the dossier cover, stacked as two lines. Small screens step to `clamp(3.4rem, 14vw, 5.6rem)` at 900px and `clamp(3rem, 16vw, 4.5rem)` at 620px.
-- **Section** (700, `clamp(2.2rem, 4.5vw, 3.5rem)`, line-height 0.95, letter-spacing -0.015em, uppercase): the four `h2` chapter titles — Intake statement, Exhibits, Field kit, Checkout.
-- **Exhibit title** (700, `clamp(2.6rem, 5vw, 4.2rem)`, line-height 0.84, uppercase): project names on their folders, the largest type on paper.
-- **Lead** (700, `clamp(2.5rem, 5vw, 4.4rem)`, line-height 0.9, max 13ch): the checkout invitation, the only display type on the dark ground.
-- **Body** (400, 1rem, line-height 1.6): global default in Open Sans.
-- **Copy** (400, 0.92rem, line-height 1.64): reading blocks, measured — cover note 44ch, intake statement 62ch, exhibit abstract 68ch, checkout context 46ch, exhibit footnote 44ch at 0.66rem/1.55. Findings run at 0.79rem/1.55, table cells at 0.78rem/1.5, footer notes at 0.62rem/1.7.
-- **Label** (400, 0.56rem, uppercase, letter-spacing 0.08–0.32em): the typewriter voice at its smallest — file lines, case IDs, index links, captions, footnotes, form fields, channel labels. The widest tracking (0.32em) is reserved for the single `INDEX` rail label. Field values inside the intake sheet are the exception: 0.78rem Open Sans 600 on paper.
-- **Tag** (600, 0.56–0.62rem, uppercase, letter-spacing 0.06–0.16em): stack chips, capability row headers, filing columns, stamps, and the `DF` seal.
+- **Masthead** (900, `clamp(2.65rem, 8.2vw, 7.6rem)`, line-height 0.83, -0.025em): "THE FEBRIAN PROPHET", centred between two rules. It is the largest type on the page and never appears elsewhere.
+- **Section** (900, `clamp(2.3rem, 5.2vw, 5.2rem)`, 0.9): the four department headings. Uppercase.
+- **Lead** (700, `clamp(2.4rem, 4.1vw, 4.4rem)`, 0.93): the front-page headline. Maximum 18ch; it is intentionally narrower than the column so the white space remains part of the composition.
+- **Story title** (900, `clamp(2.5rem, 6vw, 5.8rem)`, 0.9): project names. These are the moment the page becomes a front page again.
+- **Body** (400, 1rem, 1.6): global Newsreader default.
+- **Copy** (400, 0.98rem, 1.68): measured article copy, capped at 64–66ch.
+- **Label** (400, 0.57rem, 1.45, 0.09em tracking, uppercase): datelines, bylines, captions, folios, section notes, contents marks, column-note labels, footer notes.
+- **Tag** (600, 0.57rem, 1.3, 0.1em tracking, uppercase): capability names in the workshop, findings leads, and stack lines.
 
 ### Named Rules
-**The Four Voices Rule.** Exactly four families ship: condensed display, typewriter label, humanist body, technical tag. A fifth face is a system change, not a component decision.
+**The Four Voices Rule.** Exactly four families ship. A fifth face is a system change, not a component decision.
 
-**The Typewriter Metadata Rule.** Anything that identifies or locates — case ID, file line, caption, date, index entry, footnote — is set in the typewriter voice, uppercase, tracked. Identification never borrows the body face.
+**The Three-Job Rule.** Besley carries the masthead, section headings, and article titles; Newsreader carries all reading copy; Courier Prime carries anything that identifies, dates, or locates; Archivo Narrow carries technical working-set labels. No role borrows another voice for variety.
 
-**The Measure Rule.** Reading copy never exceeds 68ch, and paper body copy never drops below 0.78rem (file notes and footnotes sit at 0.66rem, the one deliberate step below it). Display type is allowed to be huge; body type is not allowed to be small.
+**The Reading Measure Rule.** Running copy stays between 64 and 68ch. Section headings may be huge; body copy never drops below 0.78rem, except the deliberate 0.52–0.57rem metadata band.
 
 ## Layout
 
-The page is a fixed three-part frame around a scrolling stack of sheets.
+The edition is a centred paper sheet with fixed height-strip chrome. The sheet width is `min(calc(100% - clamp(1.5rem, 7vw, 7rem)), 1600px)` at 1440 and wider desktops; on screens up to 900px it becomes full width. The fixed masthead is 3.1rem tall and the section-tab strip 2.35rem, both aligned to the sheet width; the sheet reserves 5.45rem at the top so content never hides behind them.
 
-- **Frame.** Masthead fixed to the top (padding `1.15rem clamp(1rem, 4vw, 3.5rem)`, hairline bottom border, opaque #080a07). Index rail fixed at the vertical centre of the left edge (`width: 9.5rem`, `left: clamp(1rem, 2.6vw, 2.7rem)`). Red scroll thread fixed to the right edge (`right: clamp(10px, 2vw, 26px)`, 1px wide, knots at 7% from top and bottom). Every chapter scrolls under them and reserves space for them.
-- **Chapter rhythm.** Each `section.chapter` is `max-width: 1500px`, centred, with asymmetric padding: top `clamp(4.5rem, 10vh, 8rem)`, right `clamp(2rem, 7vw, 7rem)`, bottom `clamp(4.5rem, 9vh, 7rem)`, and left `clamp(3rem, 22vw, 14rem)`. The left gutter is deliberately wide — it is the physical room the fixed index occupies. `scroll-margin-top: 6.5rem` clears the masthead on anchor jumps.
-- **Cover.** Full viewport (`height: 100svh`, `overflow: hidden`), padding `clamp(5rem, 11vh, 7rem) clamp(2rem, 8vw, 8rem) 0 clamp(2rem, 12vw, 10rem)`, sheet right-aligned and allowed to bleed past the bottom edge. Sheet is `min(52rem, 68vw)`, narrowing to `min(43rem, 68vw)` at 1200px and `min(40rem, 74vw)` at 1040px, then full-width on small screens.
-- **Internal grids.** Intake sheet splits `0.82fr / 1.18fr` (fields / statement). Exhibit body splits `1.13fr / 0.87fr` (evidence / record). Checkout splits `1.15fr / 0.85fr` (invitation / channels). All three collapse to a single column at 1040px (checkout at 900px).
-- **Table.** The field-kit table is three columns at 17% / auto / 25% on a single sheet; at 620px the header row is visually hidden and each row becomes a stacked block with the capability name above its working set and its evidence line in red.
-- **Spacing rhythm.** No global spacing scale ships; rhythm is per-component. The recurring steps are 1px hairlines, 0.35rem (chips, ticks), 0.6rem (label padding, bound lines), 0.85rem (row padding, button padding), 1.2rem (block separation), and the sheet padding `clamp(1.3rem, 3vw, 2.7rem)`. Vertical spacing between sections is driven by the chapter padding, not by margins on children.
-- **Breakpoints.** 1200px (cover sheet and tabs tighten), 1040px (the three internal grids collapse), 900px (index rail becomes a bottom bar, thread hides, cover becomes a single column with a mobile tab strip, checkout collapses, footer notes stack), 620px (masthead compresses, display type steps down, filing rows inline, table cardifies). Body carries `min-width: 320px`, so 320px is the narrowest viewport the layout supports.
-- **Fixed-bar clearance.** On small screens the index becomes a bottom bar with `padding-bottom: calc(0.5rem + env(safe-area-inset-bottom))`; the cover reserves 7rem of bottom padding and the footer 6.5rem so nothing is trapped under it.
-- **Z-order.** Canvas 0, world wash 1, vignette 2, main content and cover 3, scroll thread 4, index rail 15, masthead 20, mobile index 30, skip link 50.
-- **Scroll progress.** A single `--scroll-progress` custom property (0–1, four decimals) is written on `documentElement` from a rAF-throttled scroll listener and consumed by the thread (`transform: scaleY()`), while the scene reads the same ratio through `sceneState`.
+The front page is a three-track grid: story `1.4fr`, living photograph `0.9fr`, contents `0.62fr`, with a 1px ink rule separating the tracks. At 1440×900 the first viewport contains the full masthead, lead headline, deck, red action, living photograph and caption, all four contents rows, the Edition Notes block, and the byline. The columns collapse to one at 1040px, where the photo and contents follow the lead as ruled blocks.
+
+Chapters use the full sheet width with `clamp(1.6rem, 4.5vw, 4.6rem)` horizontal padding. Each starts with a 3px double rule, a fold lip of `clamp(1.2rem, 3vw, 2.6rem)`, and a dog-ear at the top right. The Statement and Letters departments use a ruled two-column model; Portfolio alternates a photo/text split; the Workshop is a single full-width table. The shared vertical rhythm is: fold lip, 2.5–4.4rem chapter padding, section rule, content, folio.
+
+**Breakpoints:** 1200px (display sizes step down), 1040px (front-page grid and story splits stack; contents become a ruled block), 900px (edition goes full width, nav becomes a fixed bottom bar, gutters disappear, threads hide), 620px (masthead compresses, the contents type steps down, the workshop table becomes stacked blocks, the folded corner tightens).
+
+**Sheet edge:** a 1px rule plus a wide soft shadow separates page from desk; a pair of inset edge shadows suggests the paper's lift. The desk remains visible in the `clamp(1.5rem, 7vw, 7rem)` outer gutter.
 
 ### Named Rules
-**The Rail Gutter Rule.** Chapters reserve `clamp(3rem, 22vw, 14rem)` on the left. Nothing is placed inside that gutter except the fixed index; content that ignores it collides with navigation.
+**The Edition Width Rule.** Masthead, tabs, and sheet share one width token. Changing one without the others breaks the illusion of a single printed object.
 
-**The Frame Over Paper Rule.** Fixed chrome (masthead, index, thread) always sits above content in z-order and never moves; only the sheets scroll. Paper is the only thing allowed to slide under the frame.
+**The Three-Track Rule.** The front page is story, photograph, contents — not a hero plus sidebar. If a fourth element is needed, it belongs in the contents column or below the fold, never as a fourth track.
 
 ## Elevation & Depth
 
-Depth is physical, not atmospheric: paper sheets float over a dark room on soft, wide, downward shadows, and the room itself supplies atmosphere through WebGL fog. Nothing glows, nothing is inset, nothing uses a gradient border. Every sheet shadow is a two-layer stack — a wide, very soft ambient pass plus a tighter contact pass — with no offset in any direction but down.
+The system is lit paper on a desk, not stacked UI cards. The sheet sits above a warm WebGL press room with a light cast from the upper left; the only DOM shadows are the sheet's wide soft drop and the tight inset edge that makes the paper feel lifted.
 
-Two fixed, full-viewport layers sit between the canvas and the content to keep type readable over the room: a **wash** (horizontal gradient from `rgb(6 7 5 / 0.7)` at the left edge, clearing to zero at 54%, back to `0.36` at the right; plus a vertical pass from `0.6` at the top and `0.76` at the bottom) and a **vignette** (`radial-gradient(ellipse at 54% 42%, transparent 16%, rgb(4 5 3 / 0.2) 58%, rgb(4 5 3 / 0.76) 100%)`). Both are `pointer-events: none`, `aria-hidden`, and both are re-tuned at 900px to a flatter, more even falloff, because the corridor is narrower on a phone and heavy edge darkening would crush the sheets. The checkout chapter adds a third, local pass — a `180deg` gradient from `0.5` through `0.92` filling `inset: -4rem 0` — so the ledger reads as the darkest page in the file.
+The living photograph is a flat printed plate with a 1px ink frame and a paper matte. Its depth is performed, not shadowed: two image layers respond to the pointer at different rates over a halftone grain. The folded corner is a clipped triangle of darker paper with a two-pixel ink crease and a small drop shadow. The R3F scene supplies desk, wall, floating copies, and ink motes; it never receives a DOM glow.
 
 ### Shadow Vocabulary
-- **Sheet (cover)** (`box-shadow: 0 40px 90px rgb(0 0 0 / 0.56), 0 10px 32px rgb(0 0 0 / 0.4)`): the dossier cover, the closest sheet to the camera.
-- **Sheet (form)** (`0 30px 70px rgb(0 0 0 / 0.5), 0 8px 24px rgb(0 0 0 / 0.34)`): the intake sheet.
-- **Sheet (exhibit)** (`0 26px 62px rgb(0 0 0 / 0.46), 0 6px 18px rgb(0 0 0 / 0.3)`): each exhibit folder.
-- **Sheet (kit)** (`0 30px 70px rgb(0 0 0 / 0.46), 0 8px 22px rgb(0 0 0 / 0.3)`): the field-kit sheet.
-- **Tab** (`0 5px 12px rgb(0 0 0 / 0.22)`): folder tabs and the vertical cover tabs (`0 14px 30px rgb(0 0 0 / 0.34)` for the heavier cover stack).
-- **Seal** (`0 5px 14px rgb(0 0 0 / 0.38)`): the `DF` seal in the masthead.
-- **Plate** (`0 14px 30px rgb(0 0 0 / 0.2)`): the carbon trace block.
-- **Stamped edge** (`0 3px 0 #6f231a, 0 18px 30px rgb(0 0 0 / 0.26)`): the cover anchor only — a 3px solid red edge under a 0.8 opacity black contact shadow.
-- **Knot ring** (`box-shadow: 0 0 0 2px rgb(8 10 7 / 0.5)`): the 5px thread knots, a ring rather than a shadow.
-
-### The corridor as depth
-The 3D scene is a 7.4 × 34 unit corridor: concrete floor and walls from procedurally generated 512px canvas textures (seeded, no image files), nine door pairs from z −1.4 to −22.2, ceiling fixtures at −6.6 (green), −11.8, −17, −22.2, a red exit sign at −28.7, three sagging red threads with paper tags, and 700 dust points (240 below 900px) in additive blending. Fog runs #080a07 from 4.2 to 26 units (20 under reduced motion), the camera starts at [0, 1.54, 3.1] with 58° FOV (76° below 900px) and dollies to z −6.1 across the page, with ±0.42 units of pointer parallax on x. Lighting is ambient + hemisphere + six point lights, with one green lamp that flickers via `sin(16.3t) · sin(4.7t)` damped at λ16 (steady 5.4 intensity under reduced motion). ACES Filmic tone mapping at 0.95 exposure; shadow maps disabled. The canvas is `pointer-events: none`, `aria-hidden`, lazy-loaded behind `Suspense`, and replaced by a static radial gradient when WebGL is unavailable.
+- **Edition lift** (`0 0 0 1px rgb(62 45 22 / 0.42), 0 30px 80px rgb(0 0 0 / 0.5)`): the paper sheet above the desk.
+- **Sheet edge** (`inset 16px 0 20px -24px rgb(0 0 0 / 0.62), inset -16px 0 20px -24px rgb(0 0 0 / 0.62)`): the subtle lift at the left and right paper edges.
+- **Fold lip** (`0 7px 12px -10px rgb(34 24 12 / 0.45)`): beneath the scroll-driven folded band at each chapter.
+- **Dog-ear** (`drop-shadow(-2px 3px 2px rgb(60 42 20 / 0.38)`): the turned corner only.
+- **Photo matte**: border only; living photographs do not use box-shadow.
 
 ### Named Rules
-**The Sheet Floats, Nothing Glows Rule.** Elevation is the paper sheet's relationship to a dark room. Any new surface gets a stock, a tilt, and the two-layer downward shadow; no element may use a glow, an inner shadow, a luminous border, or a coloured halo.
+**The Lit Paper Rule.** Depth comes from paper against a lit desk, never from a coloured glow, gradient border, or glass panel. A new surface either sits on the paper or is the paper.
 
-**The Downward Shadow Rule.** Shadow offsets are positive-y only, blur is at least three times the offset, and opacity never rises above 0.56. A sharp shadow is a lighting mistake, not a style.
+**The One Fold Rule.** Each chapter gets one fold lip and one dog-ear. Fold decoration never repeats inside a section or appears on the front page.
 
 ## Shapes
 
-Square. Every sheet, tab, button, chip, plate, stamp, and block has a hard 0px corner, and the system has exactly one curve: the 5px circular scroll-thread knot. Sheets are rectangles of different stocks; the only silhouette variety comes from three devices.
+Radius is 0px throughout. The sheet, photo frame, proof block, table, stamps, and controls are all square-cornered. The only rounded things in the world are the press-sound meter bars and the scene's generated paper forms; the interface itself has no curve.
 
-- **Tilt.** Sheets sit at fractions of a degree: cover −1.1deg, intake +0.7deg, exhibits −0.22deg and +0.2deg, kit −0.35deg, evidence plate −0.35deg, trace −0.25deg. Nothing exceeds two degrees, and every tilt is removed at 900px so phone reading stays level.
-- **Tabs and flaps.** The folder tab (0.38rem × 0.8rem padding in Manila Tab) sits above an exhibit's top edge at `top: -1.5rem`; the cover's three vertical tabs use `writing-mode: vertical-rl` and rotate 1.4, −1, and 2 degrees respectively so the stack never looks machine-aligned.
-- **Punch gutter.** Dossier cover, intake sheet, exhibit folders, and the field-kit sheet share a left punch strip: a 14px column at `left: 0.32rem` inset 1.6rem from top and bottom, painted as three radial-gradient holes (2.7px dark core, 4.5px shadow ring) at 8%, 50%, and 92% height. It is decoration, drawn in CSS, with no image asset.
-- **Borders.** Paper surfaces use ink hairlines at 0.16–0.4 alpha; dark surfaces use the paper alpha rules. Borders are 1px and never coloured, except the 2px red rule framing a stamp and the 3px red frame on the checkout stamp.
-- **Stamps.** Rotated 5–7 degrees, uppercase technical type, `mix-blend-mode: multiply` on paper (so the stock shows through the stamp), red at 0.55–0.82 opacity.
+Silhouette variety comes from three devices only:
+- **Fold lip.** A soft paper-dark-to-transparent band at each chapter top, opened by a scroll-driven perspective rotation from 74° to flat.
+- **Dog-ear.** A top-right triangle of darker paper with a diagonal ink crease and a soft shadow, sized `clamp(2.2rem, 4vw, 3.8rem)`.
+- **Ink rule.** Single hairlines, 3px double rules, and the 2px oxblood action border; rules always run horizontally except the 1px column separators on the front page.
+
+Stamps ("Morning edition", "Reply requested") are rotated 5–7° and set in typewriter, always multiply-blended so the paper shows through.
 
 ### Named Rules
-**The Square-Corner Rule.** Radius is 0px. The single 50% value in the system is the scroll-thread knot. A rounded corner anywhere is a break in the world.
+**The Zero Radius Rule.** Corners are square. The one circular shape in the interface is a press-sound bar; a rounded card is a break in the world.
 
-**The Two-Degree Rule.** A sheet may tilt by up to two degrees; the cover holds at −1.1deg, and no tilt survives below 900px. Tilting is stacking, not styling.
+**The Printed Fold Rule.** A fold is always a flat printed device: a crease, a lip, or a dog-ear. Do not simulate paper with a gradient card, a glass overlay, or a photograph of paper.
 
 ## Components
 
-Every section body is a physical document. The component vocabulary is therefore document furniture: sheets, tabs, stamps, plates, ledgers, and tables, plus a small set of controls that behave like printed switches.
-
-### Buttons and controls
-- **Shape:** 0px radius throughout, 1px hairline borders on dark controls, no borders on the primary anchor.
-- **Primary anchor** (`.cover__open`): solid Case Red, Bone Paper text, typewriter 0.65rem uppercase 0.12em, padding `0.85rem 1.05rem`, label left and arrow right, stamped 3px red-deep edge and a soft contact shadow. Hover lifts to Case Red Bright and `translateY(-2px)`; active settles to `translateY(1px)`. It is the page's only solid red field and its only "stamped edge".
-- **Sound control** (`.sound`): ghost switch in the masthead — `rgb(8 10 7 / 0.28)` fill, 1px `rgb(232 225 208 / 0.3)` border, 1.9rem min-height, three 2px bars that animate at 1.1s when playing, and a `Sound off` / `Sound on` label whose state word is set in #cf6a5b rather than Case Red. Hover raises text to Bone Paper and border to 0.55 alpha; pressed (`aria-pressed="true"`) fills `rgb(167 54 42 / 0.14)` with a 0.75-alpha red border. Audio is off by default and only starts on click.
-- **Link** (`.exhibit__links a`, `.strays a`, `.footer__top a`): typewriter uppercase with a 1px ink underline that turns red on hover, red text on hover. The external-arrow mark is currently a typed glyph.
-- **Skip link:** case-red block, typewriter 0.7rem, hidden at `translateY(-200%)` until focused.
-
 ### Navigation
-- **Index rail** (`.nav`): fixed left, 9.5rem wide, `INDEX` label in the widest tracked typewriter (0.32em) over a hairline, then four links (Intake, Exhibits, Field kit, Checkout) each preceded by a 14px hairline tick. Default text is `rgb(232 225 208 / 0.58)`; hover raises to Bone Paper and shifts 2px right with the tick growing to 24px; the active section gets `aria-current="location"`, full paper text, and a 30px red tick. Foot line carries `DEVIN FEBRIAN / DF-09`. Active state is observed with an `IntersectionObserver` (`rootMargin: -28% 0px -58% 0px`).
-- **Mobile index:** below 900px the rail becomes a fixed bottom bar (`rgb(8 10 7 / 0.95)`, hairline top, safe-area padding) with four evenly spread column links and 20px ticks.
-- **Masthead:** seal + wordmark left (`Field archive / 09`, the `/ 09` in #cf6a5b), status line and sound control right. Status hides below 900px, wordmark below 620px, leaving the seal and the switch.
+- **Shape:** two fixed typewritten strips aligned to the edition width; square, 1px rule above, 3px double rule below.
+- **Section tabs:** uppercase Courier Prime at 0.57rem, 0.11em tracking. Marks are 1 / A / B / C / D; active tab uses ink text and a 2px oxblood underline. Hover raises the tab from ink-faint to ink.
+- **Mobile:** below 900px the tabs become a fixed bottom bar, one tab per column, safe-area padding, and the same oxblood active underline.
 
-### Sheets
-- **Dossier cover** (`.cover__sheet`): Bone Paper, `min(52rem, 68vw)`, −1.1deg, two-layer sheet shadow, a fold crease at 46.2% width and a corner vignette painted with gradients. Contents in order: file line (`CASE FILE DF-09` / `WRENWOOD ARCHIVE / 2026`), rotated `FILE 09` stamp, two-line display name, `/`-separated role line, 44ch note, the red anchor, a two-column file-contents index (A–D), a metadata row (origin / record / revision), and a bottom-bleed block with `EVIDENCE CONTINUES` and an outlined `09` at `clamp(6rem, 12vw, 10rem)` in transparent fill with a 1px ink stroke.
-- **Intake sheet** (`.form-sheet`): `#e8e1d0`, +0.7deg, max 1100px, header line (`SUBJECT INTAKE` / `RESTRICTED / ACTIVE`), a definition list of six subject fields set as a 1px-gap grid of boxed rows, a DF watermark block (`clamp(4rem, 7vw, 6rem)` outlined display over `SUBJECT PRESENT`), and a 62ch statement with a red display drop cap and a signature row closed by a hairline.
-- **Exhibit folder** (`.exhibit`): a `<details>`/`<summary>` accordion on File Stock 01/02/03 with a Folder Tab carrying the case ID at `top: -1.5rem`. Summary holds the exhibit title, a right-aligned filing column (status in red over year, technical face), the subtitle in typewriter, the abstract at 68ch, and an open/close cue with a 1.35rem boxed `+` that rotates 45deg when open. The first exhibit ships open. Body opens with a 0.48s unfold and splits into evidence (left) and record (right): evidence is a carbon plate (1px ink border, 0.45rem padding, −0.35deg) with a `Fig. NN` caption in red over the capture caption; the record is a `FINDINGS` numbered list (decimal-leading-zero numerals in red), a `TECHNICAL RECORD` chip row, a link row, and an optional footnote.
-- **Trace block** (`.trace`): Carbon Trace, 1rem padding, −0.25deg, typewriter caption over a `<pre>` at 0.64rem/1.85 — the substitute for a screenshot where no raster exists.
-- **Field-kit sheet** (`.kit-sheet`): Field Kit Stock, −0.35deg, max 1150px, punch strip, a three-column table (Capability / Working set / Evidence) with typewriter headers at 0.56rem tracked 0.16em, capability cells in Rajdhani 600, and 1px row rules; row hover tints `rgb(255 255 255 / 0.18)`. Two footnote paragraphs close the sheet. Below 620px the table becomes stacked blocks.
-- **Checkout ledger** (`.checkout`): a two-column ledger inside the darkest part of the page (the section carries its own darkening gradient overlay, `inset: -4rem 0`), separated by hairline top and bottom borders. Left: a 13ch display invitation, the email as a typewriter link with a red underline, and a 46ch context line. Right: a channel ledger of three rows on a 4.6rem / 1fr / auto grid (Email, LinkedIn, GitHub) with hairline dividers, a hairline-red arrow cell, and a hover that indents the row 0.5rem. A rotated `CASE OPEN` stamp (3px red frame, technical type at 1.1rem) sits at the section's top-right corner.
-- **Section head** (`.section-head`): chapter `h2` left, typewritten uppercase note right-aligned at the baseline, a hairline under both. Below 900px the note stacks under the title and aligns left.
-- **Footer** (`.footer`): three typewritten hairline-separated columns at 0.62rem/1.7 — the design-attribution notice, the typeface substitution notice, and the build credit — under a top line that pairs `DF-09 / FIELD ARCHIVE` with a `Return to cover ↑` link. It is the page's only place for prose at footnote scale, and it carries the same hairline rules as the masthead.
+### Buttons and Controls
+- **Front action:** the only solid oxblood field. Square, 0.78rem × 0.95rem padding, Courier Prime at 0.6rem, paper text, arrow drawn as SVG. Hover flips to ink; active depresses 1px.
+- **Press switch:** square ghost control in the fixed masthead, 1px ink-faint border, transparent ground, typewriter label "Press off / on", three 2px meter bars that animate only while audio plays. Pressed state uses a 0.08 oxblood wash and an oxblood border.
+- **Links:** typewritten uppercase, 1px ink underline; hover becomes oxblood; external links carry a drawn 0.62rem SVG arrow.
 
-### Asset provenance
-Every raster in the build is a dated capture of a real deployment, not stock imagery. `public/evidence/sentinel.png` and `public/evidence/gameforge.png` were captured 2026-10-26 with headless Chrome at 1440 × 900, no device scale, from `sentinel-sentry.vercel.app` and `game-forge-rho.vercel.app`; the same facts are recorded in `public/evidence/PROVENANCE.md` and repeated in each figure caption (`Fig. NN` + `Live interface capture · 26 Oct 2026 · <host>`). The third exhibit has no raster and uses a typewritten sort map instead. Fonts are self-hosted Fontsource files, and the corridor's concrete and floor textures are generated in a 512px canvas at runtime from a seeded PRNG (no image files). No game assets, character art, or franchise logos exist anywhere in the build.
+### Living Photograph
+The signature component. A 16:10 printed plate on a paper matte:
+- Two image layers: a blurred, sepia misprint at 20% opacity and a normal plate at 0.62 sepia.
+- Pointer parallax: the misprint translates with the pointer at 3–4px, the plate at −7px, producing independent movement at low cost.
+- Hover: the plate loses most of its sepia, gains saturation, and scales to 1.04; the misprint lifts to 28%.
+- A 3px halftone dot grid sits above both layers in multiply.
+- One-shot develop: on entry, the wrapper fades from blur/sepia to crisp over the view timeline. No infinite animation.
+- Caption is Courier Prime at 0.57rem; "Plate I/II/III" is oxblood.
+- Reduced motion removes the develop and pointer transforms and leaves the plate still and legible.
+
+### Broadsheet Story
+- **Head:** story title in Besley 900, italic deck in Newsreader, then a typewritten byline rule with "Report one · status · year".
+- **Body:** two tracks, `1.04fr / 0.96fr`; photo/text alternates direction. The visual is sticky on desktop until the story ends.
+- **Text:** drop cap in oxblood Besley, numbered findings with 01-style typewriter numerals, a working-set line in Archivo Narrow, and drawn-arrow links.
+- **Third report:** no photograph; a printer's proof block in ink with paper type carries the folder map.
+
+### Workshop Table
+Full-width, ruled table: capability in Besley, working set in Newsreader, evidence in Archivo Narrow caps. Header row uses Courier Prime. On mobile the header hides and rows become stacked blocks with the evidence line in oxblood.
+
+### Letters
+A two-column correspondence desk: "Write to the desk." in Besley, email as a 2px oxblood-underlined Newsreader link, channels as ruled rows with typewritten labels and drawn arrows. The "Reply requested" stamp sits top-right on desktop and enters the flow on mobile.
+
+### Footer
+Edition colophon: Vol. IX / No. 09, return-to-page-one link with an SVG arrow, three typewritten notes, and "End of edition" in oxblood over a hairline.
 
 ### Motion
-- **Easing.** Two curves only: `cubic-bezier(0.19, 1, 0.22, 1)` for entrances (the sheet settling, the folder unfolding) and `ease` for state changes. The scroll thread is `linear` at 0.12s because it tracks the scrollbar, not a gesture.
-- **Durations.** 0.2s for colour, border, and background; 0.22s for the cover anchor and index link; 0.25s for the cover tabs; 0.28s for the `+` rotation and exhibit cue; 0.48s for an exhibit body unfolding; 0.95s for the cover sheet arriving (`rotate(-1.6deg) translateY(20px)` → `rotate(-1.1deg)`).
-- **Ambient loops.** The sound meter animates three bars at 1.1s ease-in-out with 0.18s and 0.36s delays. In the scene, dust rotates at `delta × 0.006` and bobs on `sin(0.16t) × 0.06`; the lamp flickers on `sin(16.3t) · sin(4.7t)` damped at λ16 toward 84–100% of 5.4 intensity; camera damping runs λ2.4 (x, y), λ1.8 (z), λ2 (roll).
-- **Reduced motion.** `prefers-reduced-motion: reduce` sets every animation and transition to 0.001ms / one iteration, cancels the cover's entrance, disables the thread's transition, sets `scroll-behavior: auto`, freezes the camera at progress 0 and pointer 0 (no parallax, no dolly), pulls fog in from 26 to 20 units, and holds the lamp at a steady 5.4. Nothing that carries content depends on motion to appear.
-- **No scroll-jacking.** Scroll stays native; the scene only reads `window.scrollY`.
+- **Page fold:** the chapter fold lip rotates from `perspective(700px) rotateX(74deg)` to flat on the view timeline, then settles at 60% opacity. Dog-ears are static.
+- **Photo develop:** one-shot view-timeline transition from blur/sepia to sharp; hover and pointer response thereafter.
+- **Scene:** slow camera dolly with scroll and pointer parallax; floating paper and motes drift at low amplitude.
+- **State changes:** 0.2s ease for colour and border, 0.45s for photo layers.
+- **Reduced motion:** no fold, no develop, no scene drift, no pointer transforms; content remains visible and still.
 
-### Audio
-Sound is an opt-in room tone, never a default. The sound control synthesises a drone in the Web Audio API at click time: two sine oscillators at 43.65 Hz and 55.16 Hz (gains 0.24 and 0.1), plus a looping three-second noise buffer built with a leaky integrator over white noise (`last = (last + 0.02 · white) / 1.02`, scaled 3.2) at 0.045 gain — all through a 260 Hz lowpass (Q 0.7) into a master gain. Pressing on resumes the context and ramps the master to 0.07 over 1.4s; pressing off ramps to 0.0001 over 0.6s without stopping the oscillators, so re-entry is instant. The context is closed on unmount. There is no autoplay, no scroll-triggered sound, and no audio outside this control.
-
-### States and focus
-- **Focus:** one global rule — `outline: 2px solid #bd4436; outline-offset: 3px` on `:focus-visible`. No component overrides it.
-- **Selection:** `::selection` fills Case Red with Bone Paper text.
-- **Scrollbar:** `scrollbar-color: #4a3028 var(--ink)`; WebKit track is Archive Ink at 10px with a #3a2a23 thumb inset by 2px of ink, lightening to #5b3a2e on hover.
-- **Hover:** colour and border shifts at 0.2s ease; the index link and cover anchor move 2px; nothing scales.
-- **Disabled:** no disabled states exist in the build; no inputs, no submitting controls.
-
-### Named Rules
-**The Printed Sheet Rule.** Every paper section body — intake, exhibits, field kit — is a sheet with its own stock, tilt, punch strip, and two-layer shadow. The checkout ledger is the one deliberate exception: the closing page is printed straight on the dark. A card is never allowed to float without a sheet beneath it.
-
-**The Document Furniture Rule.** Sheets carry institutional furniture — file line, case ID, filing column, footnote, signature. A sheet without a file line is a card in costume, and cards are not part of this world.
-
-**The One Solid Anchor Rule.** Exactly one solid red control appears in the world: the cover's `OPEN THE EXHIBITS` anchor. Further solid red fields dilute it into decoration.
+### Accessibility
+Skip link to the edition, one h1, section h2s, story h3s, no heading levels skipped. Global 2px oxblood focus ring at 3px offset. WCAG AA contrast across paper and ink. Decorative scene and photo misprint are `aria-hidden`; audio is off by default and controlled by an `aria-pressed` switch. Full keyboard path including the bottom nav.
 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** set every paper section body on a sheet with a named stock, a tilt of two degrees or less (cover −1.1deg, intake +0.7deg, exhibits −0.22/+0.2deg, kit −0.35deg), and the two-layer downward shadow.
-- **Do** reserve `clamp(3rem, 22vw, 14rem)` of left chapter padding for the fixed index rail, and `scroll-margin-top: 6.5rem` for the masthead.
-- **Do** identify everything in the typewriter voice: case IDs, file lines, captions, index entries, footnotes, channel labels — uppercase at 0.56–0.62rem with 0.08–0.32em tracking.
-- **Do** keep reading copy between 44ch and 68ch, and hold paper body copy at 0.78rem or larger (file notes and footnotes excepted at 0.66rem).
-- **Do** confine red to stamp, tick, hairline, numeral, thread, one anchor fill, and hover states (`#a7362a` → `#bd4436`).
-- **Do** reveal with `cubic-bezier(0.19, 1, 0.22, 1)` — 0.95s for a sheet settling, 0.48s for a folder unfolding — and keep ordinary state changes at 0.2–0.28s ease.
-- **Do** keep the canvas `aria-hidden` with `pointer-events: none`, lazy-loaded, and backed by the static gradient fallback.
-- **Do** cut every tilt, transform-heavy transition, camera dolly, and lamp flicker under `prefers-reduced-motion`, and leave `scroll-behavior: auto` in that mode.
-- **Do** keep audio off until the sound control is pressed, and state the choice on the control (`aria-pressed`, `Sound on/off`).
+- **Do** keep the edition width, fixed chrome height, and first-viewport three-track grid aligned; masthead, tabs, and sheet are one printed object.
+- **Do** use Besley 900 for the masthead and section headings, Besley 700 for the lead, Newsreader for all reading copy, Courier Prime for metadata, and Archivo Narrow for technical labels.
+- **Do** hold reading copy to 64–68ch and keep the front page headline under 18ch.
+- **Do** preserve the one oxblood field on the front page and use oxblood elsewhere only as mark, stamp, rule, drop cap, folio, or hover.
+- **Do** place a fold lip and one dog-ear at each chapter, and a 3px double rule above each department.
+- **Do** draw every arrow as an inline SVG with a consistent 1.4 stroke.
+- **Do** make every motion opt-out-safe: the page must be complete and readable with reduced motion, no WebGL, and sound off.
+- **Do** keep the press-room scene in cream/gold paper tones so it reads as a lit desk, not a dark backdrop.
 
 ### Don't:
-- **Don't** introduce a second accent, a glow, a luminous border, a gradient border, or a halo; lamp green belongs to the 3D room and never to a UI surface.
-- **Don't** round a corner. Radius is 0px everywhere; the single 50% in the system is the 5px scroll-thread knot.
-- **Don't** place a dark card on a paper sheet, a light card on the corridor, or any translucent panel — paper is the only light surface.
-- **Don't** reuse the 3px solid `#6f231a` stamped edge outside the cover anchor; the system elevation vocabulary is soft and downward only.
-- **Don't** set arrows, disclosure marks, or icons as text glyphs (↗, ↓, +). Draw them, inline.
-- **Don't** add inputs, validation, or form state to the intake sheet. It is a printed record; making it interactive is a new component and a new world decision.
-- **Don't** add a fifth type family, restyle a chapter heading in the body face, or set display type below 2.2rem.
-- **Don't** ship a label step smaller than the existing 0.56rem, and don't use that step for anything read as running copy.
-- **Don't** use stock photography, game assets, character art, or franchise logos; every raster must be a dated capture of a real deployment with its provenance recorded.
-- **Don't** let the corridor, dust, fog, or motion become a prerequisite for content: text must be readable with WebGL absent, motion reduced, or audio off.
+- **Don't** introduce rounded cards, glass, glow, gradient borders, or a second accent; the world is paper, ink, and one red.
+- **Don't** set a kicker or eyebrow above a story headline; the metadata line belongs below the deck as a byline.
+- **Don't** make the floating photographs idle forever; they develop once and respond to attention.
+- **Don't** use franchise logos, character art, crests, or other protected assets; this is an independent homage built from real project captures.
+- **Don't** use stock photography or invented screenshots; the only shipping rasters are the dated Sentinel and GameForge captures with provenance in `public/evidence/PROVENANCE.md`.
+- **Don't** place a fifth type family, set body copy in Besley, or use Courier Prime for running prose.
+- **Don't** let the WebGL scene or the sound control become a prerequisite for content or navigation.

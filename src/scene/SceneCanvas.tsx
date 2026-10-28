@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Canvas } from '@react-three/fiber'
 import * as THREE from 'three'
-import { Corridor } from './Corridor'
+import { Pressroom } from './Pressroom'
 import { sceneState } from './sceneState'
 
 function hasWebGL(): boolean {
@@ -55,18 +55,18 @@ export function SceneCanvas({ reduced }: { reduced: boolean }) {
   return (
     <div className="world-canvas" aria-hidden="true">
       <Canvas
-        dpr={smallScreen ? [1, 1.25] : [1, 1.7]}
+        dpr={smallScreen ? [1, 1.2] : [1, 1.6]}
         gl={{ antialias: true, alpha: false, powerPreference: 'high-performance' }}
-        camera={{ position: [0, 1.54, 3.1], fov: smallScreen ? 76 : 58, near: 0.1, far: 48 }}
+        camera={{ position: [0, 0.2, 7], fov: smallScreen ? 70 : 52, near: 0.1, far: 40 }}
         onCreated={({ gl }) => {
           gl.toneMapping = THREE.ACESFilmicToneMapping
-          gl.toneMappingExposure = 0.95
+          gl.toneMappingExposure = 1.24
           gl.shadowMap.enabled = false
         }}
       >
-        <color attach="background" args={['#080a07']} />
-        <fog attach="fog" args={['#080a07', 4.2, reduced ? 20 : 26]} />
-        <Corridor reduced={reduced} />
+        <color attach="background" args={['#bd966b']} />
+        <fog attach="fog" args={['#bd966b', 6, 30]} />
+        <Pressroom reduced={reduced} />
       </Canvas>
     </div>
   )

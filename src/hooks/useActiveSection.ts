@@ -10,18 +10,36 @@ export function useActiveSection(ids: readonly string[]): string {
 
     if (sections.length === 0) return
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((entry) => entry.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)
-        if (visible[0]) setActive(visible[0].target.id)
-      },
-      { rootMargin: '-28% 0px -58% 0px', threshold: [0.01, 0.2, 0.5] },
-    )
+    let frame = 0
+    const update = () => {
+      frame = 0
+      const anchor = window.innerHeight * 0.34
+      let current = sections[0]
 
-    sections.forEach((section) => observer.observe(section))
-    return () => observer.disconnect()
+      sections.forEach((section) => {
+        if (section.getBoundingClientRect().top <= anchor) current = section
+      })
+
+      if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2) {
+        current = sections[sections.length - 1]
+      }
+
+      setActive(current.id)
+    }
+
+    const schedule = () => {
+      if (frame) return
+      frame = window.requestAnimationFrame(update)
+    }
+
+    update()
+    window.addEventListener('scroll', schedule, { passive: true })
+    window.addEventListener('resize', schedule)
+    return () => {
+      window.removeEventListener('scroll', schedule)
+      window.removeEventListener('resize', schedule)
+      if (frame) window.cancelAnimationFrame(frame)
+    }
   }, [ids])
 
   return active

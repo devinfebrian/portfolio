@@ -1,3 +1,5 @@
+import { ArrowOut } from './Icon'
+import { WizardPhoto } from './WizardPhoto'
 import type { Project } from '../data/projects'
 
 type ExhibitProps = {
@@ -5,92 +7,74 @@ type ExhibitProps = {
   index: number
 }
 
+const plates = ['I', 'II', 'III', 'IV', 'V']
+const reports = ['one', 'two', 'three', 'four', 'five']
+
 export function Exhibit({ project, index }: ExhibitProps) {
-  const number = String(index + 1).padStart(2, '0')
-
   return (
-    <details
-      className={`exhibit exhibit--${number}`}
+    <article
+      className={`story ${index % 2 === 1 ? 'story--reverse' : ''}`}
       id={`exhibit-${project.id}`}
-      open={index === 0 ? true : undefined}
     >
-      <summary className="exhibit__summary">
-        <span className="exhibit__tab">{project.caseId}</span>
-        <span className="exhibit__head">
-          <span className="exhibit__title" role="heading" aria-level={3}>
-            {project.title}
-          </span>
-          <span className="exhibit__filing">
-            <span>{project.status}</span>
-            <span>{project.year}</span>
-          </span>
-        </span>
-        <span className="exhibit__subtitle">{project.subtitle}</span>
-        <span className="exhibit__abstract">{project.abstract}</span>
-        <span className="exhibit__cue" aria-hidden="true">
-          <span className="exhibit__cue-open">Open file</span>
-          <span className="exhibit__cue-close">Close file</span>
-          <span className="exhibit__plus">
-            <span>+</span>
-          </span>
-        </span>
-      </summary>
+      <header className="story__head">
+        <h3 className="story__title">{project.title}</h3>
+        <p className="story__deck">{project.subtitle}</p>
+        <p className="story__index">
+          Report {reports[index] ?? index + 1}
+          <span aria-hidden="true">·</span>
+          {project.status}
+          <span aria-hidden="true">·</span>
+          {project.year}
+        </p>
+      </header>
 
-      <div className="exhibit__body">
-        <div className="exhibit__body-grid">
-          <div className="exhibit__visual">
-            {project.image ? (
-              <figure className="evidence">
-                <img
-                  src={project.image.src}
-                  alt={project.image.alt}
-                  width={1440}
-                  height={900}
-                  loading="lazy"
-                  decoding="async"
-                />
-                <figcaption>
-                  <span>Fig. {number}</span>
-                  {project.image.caption}
-                </figcaption>
-              </figure>
-            ) : null}
-            {project.trace ? (
-              <figure className="trace">
-                <figcaption>Sort map / repository record</figcaption>
-                <pre>{project.trace.join('\n')}</pre>
-              </figure>
-            ) : null}
+      <div className="story__body">
+        <div className="story__visual">
+          {project.image ? (
+            <WizardPhoto
+              src={project.image.src}
+              alt={project.image.alt}
+              caption={project.image.caption}
+              plate={plates[index] ?? 'I'}
+              width={1440}
+              height={900}
+            />
+          ) : null}
+          {project.trace ? (
+            <figure className="proof">
+              <figcaption>Printer's proof · sort map</figcaption>
+              <pre>{project.trace.join('\n')}</pre>
+            </figure>
+          ) : null}
+        </div>
+
+        <div className="story__text">
+          <p className="dropcap story__lede">{project.abstract}</p>
+
+          <h4>What was built</h4>
+          <ol className="findings">
+            {project.findings.map((finding) => (
+              <li key={finding}>{finding}</li>
+            ))}
+          </ol>
+
+          <p className="story__stack">
+            <span>Working set</span>
+            {project.stack.join(' · ')}
+          </p>
+
+          <div className="story__links">
+            {project.links.map((link) => (
+              <a key={link.href} href={link.href} target="_blank" rel="noreferrer">
+                {link.label}
+                <ArrowOut className="icon" />
+              </a>
+            ))}
           </div>
 
-          <div className="exhibit__record">
-            <h3>Findings</h3>
-            <ol className="findings">
-              {project.findings.map((finding) => (
-                <li key={finding}>{finding}</li>
-              ))}
-            </ol>
-
-            <h3>Technical record</h3>
-            <ul className="tags" aria-label={`${project.title} stack`}>
-              {project.stack.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
-
-            <div className="exhibit__links">
-              {project.links.map((link) => (
-                <a key={link.href} href={link.href} target="_blank" rel="noreferrer">
-                  {link.label}
-                  <span aria-hidden="true">↗</span>
-                </a>
-              ))}
-            </div>
-
-            {project.note ? <p className="exhibit__note">{project.note}</p> : null}
-          </div>
+          {project.note ? <p className="story__note">{project.note}</p> : null}
         </div>
       </div>
-    </details>
+    </article>
   )
 }

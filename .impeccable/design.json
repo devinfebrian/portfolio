@@ -1,698 +1,416 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-26T11:17:51.717Z",
-  "title": "Design System: Devin Febrian — Field Archive",
+  "generatedAt": "2026-10-28T00:00:00.000Z",
+  "title": "Design System: Devin Febrian — The Febrian Prophet",
   "extensions": {
     "colorMeta": {
-      "ink": {
-        "role": "neutral",
-        "displayName": "Archive Ink",
-        "canonical": "#080a07",
-        "purpose": "Page ground, masthead fill, WebGL background and fog.",
-        "tonalRamp": [
-          "#0a0c09",
-          "#242622",
-          "#40433f",
-          "#5f625e",
-          "#80837f",
-          "#a3a6a1",
-          "#c7cac6",
-          "#edefec"
-        ]
-      },
-      "carbon-frame": {
-        "role": "neutral",
-        "displayName": "Carbon Frame",
-        "canonical": "#0d0f0b",
-        "purpose": "Mat behind every evidence plate.",
-        "tonalRamp": [
-          "#0a0c09",
-          "#242622",
-          "#41433e",
-          "#60625d",
-          "#81837e",
-          "#a3a6a1",
-          "#c7cac5",
-          "#edefeb"
-        ]
-      },
-      "carbon-trace": {
-        "role": "neutral",
-        "displayName": "Carbon Trace",
-        "canonical": "#14160f",
-        "purpose": "Terminal block that replaces a screenshot where no raster exists.",
-        "tonalRamp": [
-          "#0a0c07",
-          "#242620",
-          "#41433b",
-          "#60635a",
-          "#81847b",
-          "#a4a69d",
-          "#c8cac2",
-          "#edf0e8"
-        ]
-      },
       "paper": {
         "role": "neutral",
-        "displayName": "Bone Paper",
-        "canonical": "#e8e1d0",
-        "purpose": "Primary sheet stock: dossier cover, intake sheet, type on paper.",
+        "displayName": "Edition Paper",
+        "canonical": "#efe4cb",
+        "purpose": "Full-bleed ground and every printed surface.",
         "tonalRamp": [
-          "#0e0b04",
-          "#29251a",
-          "#474234",
-          "#676152",
-          "#888272",
-          "#aba595",
-          "#cfc9bb",
-          "#f3eee2"
+          "#151007",
+          "#302717",
+          "#50432c",
+          "#716247",
+          "#958463",
+          "#b9a885",
+          "#dbcdac",
+          "#fbf2df"
         ]
       },
-      "paper-ink": {
+      "paper-deep": {
         "role": "neutral",
-        "displayName": "Paper Ink",
-        "canonical": "#1a1c16",
-        "purpose": "Default ink for every paper surface.",
+        "displayName": "Paper Deep",
+        "canonical": "#e4d5b6",
+        "purpose": "Photo mats, fold lips, and shaded paper edges.",
         "tonalRamp": [
-          "#0a0c08",
-          "#242621",
-          "#41433d",
-          "#60625b",
-          "#81847c",
-          "#a4a69f",
-          "#c8cac3",
-          "#edefe9"
+          "#150f06",
+          "#302515",
+          "#4f4029",
+          "#6f5e43",
+          "#93805f",
+          "#b7a381",
+          "#d9c7a8",
+          "#f9eedb"
         ]
       },
-      "stock-file-01": {
+      "paper-dark": {
         "role": "neutral",
-        "displayName": "File Stock 01",
-        "canonical": "#e2dac7",
-        "purpose": "Exhibit 01 folder stock.",
+        "displayName": "Paper Dark",
+        "canonical": "#d7c6a3",
+        "purpose": "Shadowed half of a folded corner; darkest paper tint.",
         "tonalRamp": [
-          "#0f0b03",
-          "#2a2518",
-          "#484133",
-          "#686150",
-          "#898270",
-          "#aca493",
-          "#cfc9b9",
-          "#f4eee0"
+          "#150f05",
+          "#302513",
+          "#4f3f27",
+          "#6e5c40",
+          "#927e5c",
+          "#b6a17d",
+          "#d8c5a4",
+          "#f8ecd8"
         ]
       },
-      "stock-file-02": {
+      "ink": {
         "role": "neutral",
-        "displayName": "File Stock 02",
-        "canonical": "#d6cbb4",
-        "purpose": "Exhibit 02 folder stock, one step darker.",
+        "displayName": "Press Ink",
+        "canonical": "#17140e",
+        "purpose": "Masthead, headlines, body ink, rule ends, and proof blocks.",
         "tonalRamp": [
-          "#100a02",
-          "#2b2415",
-          "#4a412f",
-          "#6a604c",
-          "#8b816c",
-          "#aea48f",
-          "#d2c8b5",
-          "#f6eedd"
+          "#080705",
+          "#211d15",
+          "#3c362a",
+          "#5a5243",
+          "#79705e",
+          "#9c927e",
+          "#c0b6a2",
+          "#e9e2d2"
         ]
       },
-      "stock-file-03": {
+      "ink-soft": {
         "role": "neutral",
-        "displayName": "File Stock 03",
-        "canonical": "#cfc5ae",
-        "purpose": "Exhibit 03 folder stock, darkest of the file stocks.",
+        "displayName": "Ink Soft",
+        "canonical": "#3d3629",
+        "purpose": "Reading copy and prose on paper.",
         "tonalRamp": [
-          "#0f0a02",
-          "#2b2415",
-          "#49412f",
-          "#69604c",
-          "#8b816c",
-          "#ada48f",
-          "#d1c8b5",
-          "#f5eedd"
+          "#0a0805",
+          "#242015",
+          "#413a2b",
+          "#605644",
+          "#7f7460",
+          "#a39882",
+          "#c7bca7",
+          "#eee5d6"
         ]
       },
-      "stock-kit": {
+      "ink-faint": {
         "role": "neutral",
-        "displayName": "Field Kit Stock",
-        "canonical": "#d3d4bf",
-        "purpose": "Cooler paper reserved for the capability table.",
+        "displayName": "Ink Faint",
+        "canonical": "#6b5f4b",
+        "purpose": "Captions, folios, and secondary metadata.",
         "tonalRamp": [
-          "#0c0c03",
-          "#262618",
-          "#434333",
-          "#626350",
-          "#838471",
-          "#a6a794",
-          "#cacbb9",
-          "#eff0e1"
-        ]
-      },
-      "manila-flap-01": {
-        "role": "secondary",
-        "displayName": "Manila Flap 01",
-        "canonical": "#c2b79f",
-        "purpose": "Front flap of the three cover tabs.",
-        "tonalRamp": [
-          "#100a02",
-          "#2b2414",
-          "#4a412d",
-          "#6a604b",
-          "#8c816b",
-          "#aea48e",
-          "#d2c8b4",
-          "#f6eedc"
-        ]
-      },
-      "manila-flap-02": {
-        "role": "secondary",
-        "displayName": "Manila Flap 02",
-        "canonical": "#b7ab92",
-        "purpose": "Middle flap of the three cover tabs.",
-        "tonalRamp": [
-          "#100a01",
-          "#2c2412",
-          "#4b412c",
-          "#6b6049",
-          "#8c8169",
-          "#afa48c",
-          "#d3c8b2",
-          "#f7eedb"
-        ]
-      },
-      "manila-flap-03": {
-        "role": "secondary",
-        "displayName": "Manila Flap 03",
-        "canonical": "#a89c83",
-        "purpose": "Rear flap of the three cover tabs.",
-        "tonalRamp": [
-          "#100a01",
-          "#2c2412",
-          "#4b412c",
-          "#6b6049",
-          "#8d8169",
-          "#afa48c",
-          "#d3c8b2",
-          "#f7eedb"
-        ]
-      },
-      "manila-tab": {
-        "role": "secondary",
-        "displayName": "Manila Tab",
-        "canonical": "#b59a62",
-        "purpose": "Folder tab above each exhibit; the manila family used against the dark ground.",
-        "tonalRamp": [
-          "#120900",
-          "#312200",
-          "#553e02",
-          "#765d25",
-          "#997f47",
-          "#bba26d",
-          "#dec696",
-          "#ffecc7"
-        ]
-      },
-      "manila-mobile": {
-        "role": "secondary",
-        "displayName": "Manila Mobile",
-        "canonical": "#b9ad94",
-        "purpose": "Three-column tab strip at the foot of the cover on small screens.",
-        "tonalRamp": [
-          "#100a01",
-          "#2c2412",
-          "#4b412c",
-          "#6b6049",
-          "#8c8169",
-          "#afa48c",
-          "#d3c8b2",
-          "#f7eedb"
+          "#0b0805",
+          "#282115",
+          "#463c2b",
+          "#655944",
+          "#857761",
+          "#a79a83",
+          "#cbc0ab",
+          "#f0e9dc"
         ]
       },
       "red": {
         "role": "primary",
-        "displayName": "Case Red",
-        "canonical": "#a7362a",
-        "purpose": "Stamps, ticks, thread, numerals, the single solid anchor, link hover.",
+        "displayName": "Oxblood Ink",
+        "canonical": "#9d2c1f",
+        "purpose": "The only saturated colour: front action, marks, stamps, folios, drop caps, findings numerals, scroll marker.",
         "tonalRamp": [
-          "#200000",
-          "#4e0000",
-          "#7d1009",
-          "#a53529",
-          "#cc594a",
-          "#f17f6f",
-          "#feb4a7",
-          "#ffe9e5"
+          "#200300",
+          "#460a02",
+          "#6d1a10",
+          "#942b1f",
+          "#bb4536",
+          "#df6b5a",
+          "#f9a498",
+          "#ffe8e3"
         ]
       },
       "red-bright": {
         "role": "primary",
-        "displayName": "Case Red Bright",
-        "canonical": "#bd4436",
-        "purpose": "Hover fill and the global focus ring.",
+        "displayName": "Oxblood Bright",
+        "canonical": "#b53b27",
+        "purpose": "State response only; never a second accent.",
         "tonalRamp": [
-          "#210000",
-          "#4d0000",
-          "#7f0803",
-          "#a83125",
-          "#d05647",
-          "#f47d6c",
-          "#ffb3a7",
-          "#ffe9e5"
+          "#200300",
+          "#480b02",
+          "#701d0f",
+          "#982f1f",
+          "#c04a36",
+          "#e56f5a",
+          "#fba699",
+          "#ffe9e3"
         ]
       },
-      "red-deep": {
-        "role": "primary",
-        "displayName": "Case Red Deep",
-        "canonical": "#6f231a",
-        "purpose": "The 3px hard edge under the cover anchor only.",
-        "tonalRamp": [
-          "#210000",
-          "#480a05",
-          "#6f271e",
-          "#95463b",
-          "#bb685b",
-          "#de8c7e",
-          "#ffb3a7",
-          "#ffe9e5"
-        ]
-      },
-      "red-ink": {
-        "role": "primary",
-        "displayName": "Case Red Ink",
-        "canonical": "#7f231b",
-        "purpose": "Small printed red: exhibit numbering, filing status, mobile evidence column.",
-        "tonalRamp": [
-          "#210000",
-          "#4d0000",
-          "#751f18",
-          "#9c3f35",
-          "#c36155",
-          "#e78679",
-          "#ffb3a7",
-          "#ffe9e5"
-        ]
-      },
-      "lamp-green": {
+      "scene-clear": {
         "role": "tertiary",
-        "displayName": "Lamp Green",
-        "canonical": "#93a67c",
-        "purpose": "Fluorescent fixture and light spill inside the 3D corridor; never used in the DOM.",
+        "displayName": "Press Room Clear",
+        "canonical": "#bd966b",
+        "purpose": "Warm R3F clear colour behind the paper; never a DOM background.",
         "tonalRamp": [
-          "#060e00",
-          "#1e2a0b",
-          "#394824",
-          "#576841",
-          "#788a61",
-          "#9aad85",
-          "#bfd0ab",
-          "#e6f5d5"
+          "#160e06",
+          "#312312",
+          "#534027",
+          "#755c3c",
+          "#997d57",
+          "#bda078",
+          "#e0c69e",
+          "#fff0d5"
         ]
-      },
-      "rule": {
-        "role": "neutral",
-        "displayName": "Hairline Rule",
-        "canonical": "rgb(232 225 208 / 0.16)",
-        "purpose": "Default divider on the dark ground."
-      },
-      "rule-strong": {
-        "role": "neutral",
-        "displayName": "Strong Rule",
-        "canonical": "rgb(232 225 208 / 0.3)",
-        "purpose": "Emphasised divider and control border on the dark ground."
       }
     },
     "typographyMeta": {
-      "display": {
-        "displayName": "Display",
-        "purpose": "The DEVIN / FEBRIAN name on the dossier cover; two stacked lines, 96px ceiling."
+      "masthead": {
+        "displayName": "Masthead",
+        "purpose": "The paper name, largest type on the page, Besley 900."
       },
       "section": {
         "displayName": "Section",
-        "purpose": "The four chapter h2 titles."
-      },
-      "exhibit-title": {
-        "displayName": "Exhibit Title",
-        "purpose": "Project names on exhibit folders; largest type on paper."
+        "purpose": "Department h2 headings in Besley 900."
       },
       "lead": {
         "displayName": "Lead",
-        "purpose": "The checkout invitation; the only display type on the dark ground."
+        "purpose": "Front-page headline in Besley 700, maximum 18ch."
+      },
+      "story-title": {
+        "displayName": "Story Title",
+        "purpose": "Project names in Besley 900."
       },
       "body": {
         "displayName": "Body",
-        "purpose": "Global reading default in the humanist face."
+        "purpose": "Global Newsreader reading default."
       },
       "copy": {
         "displayName": "Copy",
-        "purpose": "Measured reading blocks at 44–68ch."
+        "purpose": "Measured article copy at 64–68ch."
       },
       "label": {
         "displayName": "Label",
-        "purpose": "Typewriter metadata: file lines, case IDs, index, captions, footnotes."
+        "purpose": "Typewritten metadata: datelines, captions, folios, contents marks."
       },
       "tag": {
         "displayName": "Tag",
-        "purpose": "Technical voice: stack chips, capability headers, filing columns, stamps."
+        "purpose": "Archivo Narrow working-set and table labels."
       }
     },
     "shadows": [
       {
-        "name": "sheet-cover",
-        "value": "0 40px 90px rgb(0 0 0 / 0.56), 0 10px 32px rgb(0 0 0 / 0.4)",
-        "purpose": "Dossier cover, the closest sheet to the camera."
+        "name": "edition-lift",
+        "value": "0 0 0 1px rgb(62 45 22 / 0.42), 0 30px 80px rgb(0 0 0 / 0.5)",
+        "purpose": "Paper sheet above the lit press-room desk."
       },
       {
-        "name": "sheet-form",
-        "value": "0 30px 70px rgb(0 0 0 / 0.5), 0 8px 24px rgb(0 0 0 / 0.34)",
-        "purpose": "Intake sheet."
+        "name": "sheet-edge",
+        "value": "inset 16px 0 20px -24px rgb(0 0 0 / 0.62), inset -16px 0 20px -24px rgb(0 0 0 / 0.62)",
+        "purpose": "Lift at the left and right paper edges."
       },
       {
-        "name": "sheet-exhibit",
-        "value": "0 26px 62px rgb(0 0 0 / 0.46), 0 6px 18px rgb(0 0 0 / 0.3)",
-        "purpose": "Each exhibit folder."
+        "name": "fold-lip",
+        "value": "0 7px 12px -10px rgb(34 24 12 / 0.45)",
+        "purpose": "Shadow under the scroll-driven fold band."
       },
       {
-        "name": "sheet-kit",
-        "value": "0 30px 70px rgb(0 0 0 / 0.46), 0 8px 22px rgb(0 0 0 / 0.3)",
-        "purpose": "Field-kit sheet."
-      },
-      {
-        "name": "tab",
-        "value": "0 5px 12px rgb(0 0 0 / 0.22)",
-        "purpose": "Folder tabs and small paper flags."
-      },
-      {
-        "name": "tab-cover",
-        "value": "0 14px 30px rgb(0 0 0 / 0.34)",
-        "purpose": "The vertical cover tab stack."
-      },
-      {
-        "name": "seal",
-        "value": "0 5px 14px rgb(0 0 0 / 0.38)",
-        "purpose": "The DF seal in the masthead."
-      },
-      {
-        "name": "plate",
-        "value": "0 14px 30px rgb(0 0 0 / 0.2)",
-        "purpose": "Carbon trace block."
-      },
-      {
-        "name": "stamped-edge",
-        "value": "0 3px 0 #6f231a, 0 18px 30px rgb(0 0 0 / 0.26)",
-        "purpose": "The cover anchor only. Not a system elevation step."
-      },
-      {
-        "name": "knot-ring",
-        "value": "0 0 0 2px rgb(8 10 7 / 0.5)",
-        "purpose": "Ring around the 5px scroll-thread knots."
+        "name": "dog-ear",
+        "value": "drop-shadow(-2px 3px 2px rgb(60 42 20 / 0.38))",
+        "purpose": "Drop shadow on the turned paper corner only."
       }
     ],
     "motion": [
       {
-        "name": "ease-entrance",
+        "name": "ease-page",
         "value": "cubic-bezier(0.19, 1, 0.22, 1)",
-        "purpose": "Sheet arrival (0.95s) and exhibit unfold (0.48s)."
+        "purpose": "Masthead and lead entrances."
       },
       {
         "name": "ease-state",
         "value": "ease",
-        "purpose": "Colour, border, background, transform on hover and focus."
+        "purpose": "Colour, border, and small state transitions."
       },
       {
-        "name": "ease-scroll",
-        "value": "linear",
-        "purpose": "The scroll thread scaling with scroll progress at 0.12s."
+        "name": "fold-open",
+        "value": "view timeline entry 0%–35%, perspective 74deg to flat",
+        "purpose": "Chapter fold lip opening as the section enters."
       },
       {
-        "name": "duration-state",
-        "value": "0.2s",
-        "purpose": "Default state transition."
+        "name": "photo-develop",
+        "value": "view timeline entry 0%–55%, blur/sepia to sharp",
+        "purpose": "One-shot development of the living photograph."
       },
       {
-        "name": "duration-link",
-        "value": "0.22s",
-        "purpose": "Cover anchor and index-link transitions."
+        "name": "photo-hover",
+        "value": "0.4s transform, 0.5s filter",
+        "purpose": "Pointer parallax and colour return on the living photograph."
       },
       {
-        "name": "duration-tab",
-        "value": "0.25s",
-        "purpose": "Cover tab hover."
-      },
-      {
-        "name": "duration-mark",
-        "value": "0.28s",
-        "purpose": "Disclosure mark rotation."
-      },
-      {
-        "name": "duration-unfold",
-        "value": "0.48s",
-        "purpose": "Exhibit body reveal."
-      },
-      {
-        "name": "duration-sheet-in",
-        "value": "0.95s",
-        "purpose": "Cover sheet entrance."
-      },
-      {
-        "name": "duration-meter",
-        "value": "1.1s",
-        "purpose": "Sound control meter loop, ease-in-out, 0.18s / 0.36s bar delays."
-      },
-      {
-        "name": "audio-fade-in",
-        "value": "1.4s",
-        "purpose": "Master gain ramp from 0 to 0.07 when sound is enabled."
-      },
-      {
-        "name": "audio-fade-out",
-        "value": "0.6s",
-        "purpose": "Master gain ramp to 0.0001 when sound is disabled."
-      },
-      {
-        "name": "camera-damp",
-        "value": "lambda 2.4 / 1.8 / 2",
-        "purpose": "Damped camera x-y, z, and roll in the corridor rig."
+        "name": "reduced-motion",
+        "value": "all fold, develop, scene drift, and pointer transforms removed",
+        "purpose": "Complete static edition for reduced-motion visitors."
       }
     ],
     "breakpoints": [
       {
-        "name": "xs",
-        "value": "320px",
-        "purpose": "Body min-width; narrowest supported viewport."
-      },
-      {
         "name": "sm",
         "value": "620px",
-        "purpose": "Masthead compresses, display type steps down, filing rows inline, kit table cardifies."
+        "purpose": "Masthead compresses, contents type steps down, workshop table stacks, dog-ear tightens."
       },
       {
         "name": "md",
         "value": "900px",
-        "purpose": "Index rail becomes a bottom bar, thread hides, cover goes single column, checkout collapses, tilts removed."
+        "purpose": "Sheet goes full width, nav becomes a bottom bar, gutters and thread hide."
       },
       {
         "name": "lg",
         "value": "1040px",
-        "purpose": "Intake, exhibit, and checkout grids collapse to one column."
+        "purpose": "Three-track front page and two-track stories collapse to one column."
       },
       {
         "name": "xl",
         "value": "1200px",
-        "purpose": "Cover sheet narrows and tabs tighten."
+        "purpose": "Display sizes step down."
       },
       {
-        "name": "max-content",
-        "value": "1500px",
-        "purpose": "Chapter max-width."
+        "name": "max",
+        "value": "1600px",
+        "purpose": "Maximum edition sheet width."
       }
     ]
   },
   "components": [
     {
-      "name": "Primary Anchor",
-      "kind": "button",
-      "refersTo": "anchor-primary",
-      "description": "The single solid red control: the cover anchor that opens the exhibits.",
-      "html": "<a class=\"ds-anchor\" href=\"#exhibits\"><span>Open the exhibits</span><svg viewBox=\"0 0 16 16\" width=\"12\" height=\"12\" aria-hidden=\"true\"><path d=\"M8 2v11M3.5 9 8 13.5 12.5 9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/></svg></a>",
-      "css": ".ds-anchor { display: flex; align-items: center; justify-content: space-between; gap: 1.4rem; padding: 0.85rem 1.05rem; background: var(--red, #a7362a); color: var(--paper, #e8e1d0); border-radius: 0; box-shadow: 0 3px 0 var(--red-deep, #6f231a), 0 18px 30px rgb(0 0 0 / 0.26); font-family: var(--font-type, 'ITC American Typewriter', 'Courier Prime', monospace); font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; transition: transform 0.22s ease, background 0.22s ease; }\n.ds-anchor:hover { background: var(--red-bright, #bd4436); transform: translateY(-2px); }\n.ds-anchor:active { transform: translateY(1px); }\n.ds-anchor:focus-visible { outline: 2px solid var(--red-bright, #bd4436); outline-offset: 3px; }"
-    },
-    {
-      "name": "Sound Control",
-      "kind": "button",
-      "refersTo": "control-ghost",
-      "description": "Ghost switch in the masthead that starts and stops the archive room tone; pressed state fills red at 14%.",
-      "html": "<button type=\"button\" class=\"ds-sound\" aria-pressed=\"true\"><span class=\"ds-sound__bars is-playing\" aria-hidden=\"true\"><i></i><i></i><i></i></span><span class=\"ds-sound__label\">Sound <span>on</span></span></button>",
-      "css": ".ds-sound { display: inline-flex; align-items: center; gap: 0.6rem; min-height: 1.9rem; padding: 0.35rem 0.6rem; border: 1px solid var(--line-strong, rgb(232 225 208 / 0.3)); border-radius: 0; background: rgb(8 10 7 / 0.28); color: rgb(232 225 208 / 0.72); font-family: var(--font-type, 'ITC American Typewriter', 'Courier Prime', monospace); font-size: 0.56rem; letter-spacing: 0.12em; text-transform: uppercase; cursor: pointer; transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease; }\n.ds-sound:hover { color: var(--paper, #e8e1d0); border-color: rgb(232 225 208 / 0.55); }\n.ds-sound[aria-pressed=\"true\"] { color: var(--paper, #e8e1d0); border-color: rgb(167 54 42 / 0.75); background: rgb(167 54 42 / 0.14); }\n.ds-sound:focus-visible { outline: 2px solid var(--red-bright, #bd4436); outline-offset: 3px; }\n.ds-sound__label span { color: #cf6a5b; }\n.ds-sound__bars { display: inline-flex; align-items: flex-end; gap: 2px; height: 12px; }\n.ds-sound__bars i { display: block; width: 2px; height: 4px; background: currentColor; opacity: 0.65; transform-origin: bottom; }\n.ds-sound__bars i:nth-child(2) { height: 8px; }\n.ds-sound__bars i:nth-child(3) { height: 6px; }\n.ds-sound__bars.is-playing i { animation: ds-meter 1.1s ease-in-out infinite; }\n.ds-sound__bars.is-playing i:nth-child(2) { animation-delay: 0.18s; }\n.ds-sound__bars.is-playing i:nth-child(3) { animation-delay: 0.36s; }\n@keyframes ds-meter { 0%, 100% { transform: scaleY(0.45); } 50% { transform: scaleY(1); } }"
-    },
-    {
-      "name": "Index Rail",
+      "name": "Section Tabs",
       "kind": "nav",
-      "refersTo": "nav-link",
-      "description": "Fixed typewritten index on the left edge; the active section gets a 30px red tick. Becomes a bottom bar below 900px.",
-      "html": "<nav class=\"ds-index\"><span class=\"ds-index__label\">Index</span><ol class=\"ds-index__list\"><li><a class=\"ds-index__link\" href=\"#intake\"><span class=\"ds-index__tick\"></span><span>Intake</span></a></li><li><a class=\"ds-index__link\" href=\"#exhibits\" aria-current=\"location\"><span class=\"ds-index__tick\"></span><span>Exhibits</span></a></li><li><a class=\"ds-index__link\" href=\"#field-kit\"><span class=\"ds-index__tick\"></span><span>Field kit</span></a></li><li><a class=\"ds-index__link\" href=\"#checkout\"><span class=\"ds-index__tick\"></span><span>Checkout</span></a></li></ol><span class=\"ds-index__foot\">Devin Febrian / DF-09</span></nav>",
-      "css": ".ds-index { display: flex; flex-direction: column; width: 9.5rem; gap: 0.9rem; color: var(--paper, #e8e1d0); font-family: var(--font-type, 'ITC American Typewriter', 'Courier Prime', monospace); }\n.ds-index__label { padding-bottom: 0.55rem; border-bottom: 1px solid var(--line, rgb(232 225 208 / 0.16)); color: rgb(232 225 208 / 0.62); font-size: 0.56rem; letter-spacing: 0.32em; text-transform: uppercase; }\n.ds-index__list { display: grid; gap: 0.1rem; margin: 0; padding: 0; list-style: none; }\n.ds-index__link { display: flex; align-items: center; gap: 0.6rem; padding: 0.32rem 0; color: rgb(232 225 208 / 0.58); font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; transition: color 0.22s ease, transform 0.22s ease; }\n.ds-index__tick { display: block; width: 14px; height: 1px; background: currentColor; opacity: 0.5; transition: width 0.25s ease, background 0.25s ease, opacity 0.25s ease; }\n.ds-index__link:hover { color: var(--paper, #e8e1d0); transform: translateX(2px); }\n.ds-index__link:hover .ds-index__tick { width: 24px; }\n.ds-index__link[aria-current=\"location\"] { color: var(--paper, #e8e1d0); }\n.ds-index__link[aria-current=\"location\"] .ds-index__tick { width: 30px; background: var(--red, #a7362a); opacity: 1; }\n.ds-index__link:focus-visible { outline: 2px solid var(--red-bright, #bd4436); outline-offset: 3px; }\n.ds-index__foot { padding-top: 0.6rem; border-top: 1px solid var(--line, rgb(232 225 208 / 0.16)); color: rgb(232 225 208 / 0.6); font-size: 0.56rem; letter-spacing: 0.08em; line-height: 1.5; text-transform: uppercase; }"
+      "refersTo": "section-tab",
+      "description": "Fixed typewritten section strip aligned to the paper width; active tab gets an oxblood underline.",
+      "html": "<nav class=\"ds-tabs\" aria-label=\"Edition sections\"><ol><li><a href=\"#top\" aria-current=\"location\"><span>A</span>Front page</a></li><li><a href=\"#intake\"><span>A</span>Statement</a></li><li><a href=\"#exhibits\"><span>B</span>Portfolio</a></li><li><a href=\"#field-kit\"><span>C</span>Workshop</a></li><li><a href=\"#checkout\"><span>D</span>Letters</a></li></ol></nav>",
+      "css": ".ds-tabs { background: var(--paper, #efe4cb); border-bottom: 3px double var(--ink, #17140e); font-family: var(--font-type, 'Courier Prime', monospace); }\n.ds-tabs ol { display: flex; justify-content: center; gap: 2rem; height: 2.35rem; margin: 0; padding: 0; list-style: none; }\n.ds-tabs a { position: relative; display: inline-flex; align-items: center; gap: 0.4rem; height: 100%; color: var(--ink-faint, #6b5f4b); font-size: 0.57rem; letter-spacing: 0.11em; text-transform: uppercase; text-decoration: none; transition: color 0.2s ease; }\n.ds-tabs a span { color: var(--red, #9d2c1f); font-family: var(--font-display, 'Besley', serif); font-size: 0.63rem; }\n.ds-tabs a::after { content: ''; position: absolute; right: 0; bottom: -1px; left: 0; height: 2px; background: transparent; }\n.ds-tabs a:hover { color: var(--ink, #17140e); }\n.ds-tabs a[aria-current=\"location\"] { color: var(--ink, #17140e); }\n.ds-tabs a[aria-current=\"location\"]::after { background: var(--red, #9d2c1f); }\n.ds-tabs a:focus-visible { outline: 2px solid var(--red, #9d2c1f); outline-offset: 2px; }"
     },
     {
-      "name": "Exhibit Folder",
+      "name": "Front Page Action",
+      "kind": "button",
+      "refersTo": "front-action",
+      "description": "The one solid oxblood field: turns to the portfolio from the front page.",
+      "html": "<a class=\"ds-front-action\" href=\"#exhibits\"><span>Turn to the portfolio</span><svg viewBox=\"0 0 16 16\" width=\"12\" height=\"12\" aria-hidden=\"true\"><path d=\"M8 2v11M3.4 8.7 8 13.3l4.6-4.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/></svg></a>",
+      "css": ".ds-front-action { display: inline-flex; align-items: center; justify-content: space-between; gap: 1.5rem; min-width: 15rem; padding: 0.78rem 0.95rem; background: var(--red, #9d2c1f); color: var(--paper, #efe4cb); border-radius: 0; font-family: var(--font-type, 'Courier Prime', monospace); font-size: 0.6rem; letter-spacing: 0.13em; text-transform: uppercase; text-decoration: none; transition: background 0.2s ease; }\n.ds-front-action:hover { background: var(--ink, #17140e); }\n.ds-front-action:focus-visible { outline: 2px solid var(--red, #9d2c1f); outline-offset: 3px; }"
+    },
+    {
+      "name": "Press Switch",
+      "kind": "button",
+      "refersTo": "press-switch",
+      "description": "Ghost masthead control for the off-by-default press-room sound; three meter bars animate only when playing.",
+      "html": "<button type=\"button\" class=\"ds-press\" aria-pressed=\"false\"><span class=\"ds-press__bars\" aria-hidden=\"true\"><i></i><i></i><i></i></span><span class=\"ds-press__label\">Press <span>off</span></span></button>",
+      "css": ".ds-press { display: inline-flex; align-items: center; gap: 0.55rem; min-height: 1.85rem; padding: 0.28rem 0.55rem; border: 1px solid rgb(23 20 14 / 0.34); border-radius: 0; background: transparent; color: var(--ink-soft, #3d3629); font-family: var(--font-type, 'Courier Prime', monospace); font-size: 0.57rem; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease; }\n.ds-press:hover { color: var(--ink, #17140e); border-color: var(--ink, #17140e); }\n.ds-press[aria-pressed=\"true\"] { color: var(--ink, #17140e); border-color: var(--red, #9d2c1f); background: rgb(157 44 31 / 0.08); }\n.ds-press:focus-visible { outline: 2px solid var(--red, #9d2c1f); outline-offset: 3px; }\n.ds-press__label span { color: var(--red, #9d2c1f); }\n.ds-press__bars { display: inline-flex; align-items: flex-end; gap: 2px; height: 11px; }\n.ds-press__bars i { display: block; width: 2px; height: 4px; background: currentColor; opacity: 0.6; transform-origin: bottom; }\n.ds-press__bars i:nth-child(2) { height: 8px; }\n.ds-press__bars i:nth-child(3) { height: 6px; }"
+    },
+    {
+      "name": "Living Photograph",
       "kind": "custom",
-      "refersTo": "exhibit-sheet",
-      "description": "Details/summary folder on a tinted file stock with a manila case-ID tab, a filing column, and a drawn disclosure mark that rotates 45 degrees when open.",
-      "html": "<div class=\"ds-file-wrap\"><div class=\"ds-file\" data-open=\"true\"><span class=\"ds-file__tab\">DF-09-01</span><details class=\"ds-file__details\"><summary class=\"ds-file__summary\"><span class=\"ds-file__head\"><span class=\"ds-file__title\">Sentinel</span><span class=\"ds-file__filing\"><span>Live / three services</span><span>2026</span></span></span><span class=\"ds-file__subtitle\">AI financial audit platform</span><span class=\"ds-file__abstract\">Seven deterministic detectors flag transaction anomalies; a three-stage pipeline investigates only the survivors.</span><span class=\"ds-file__cue\"><span>Open file</span><span class=\"ds-file__plus\"></span></span></summary></details></div></div>",
-      "css": ".ds-file-wrap { padding-top: 1.6rem; }\n.ds-file { position: relative; background: var(--stock-file-01, #e2dac7); color: var(--paper-ink, #1a1c16); border-radius: 0; box-shadow: 0 26px 62px rgb(0 0 0 / 0.46), 0 6px 18px rgb(0 0 0 / 0.3); }\n.ds-file__tab { position: absolute; top: -1.5rem; left: 1.2rem; display: inline-block; padding: 0.38rem 0.8rem; background: var(--manila-tab, #b59a62); color: #2b271d; border-radius: 0; box-shadow: 0 5px 12px rgb(0 0 0 / 0.22); font-family: var(--font-type, 'ITC American Typewriter', 'Courier Prime', monospace); font-size: 0.56rem; letter-spacing: 0.13em; text-transform: uppercase; }\n.ds-file__summary { display: block; padding: clamp(1.8rem, 3.4vw, 2.9rem) clamp(1.3rem, 4vw, 3.2rem) clamp(1.1rem, 2.4vw, 1.7rem); cursor: pointer; list-style: none; }\n.ds-file__summary::-webkit-details-marker { display: none; }\n.ds-file__head { display: flex; align-items: flex-end; justify-content: space-between; gap: 1rem; margin-bottom: 0.55rem; padding-bottom: 0.6rem; border-bottom: 1px solid rgb(26 28 22 / 0.26); }\n.ds-file__title { color: #171912; font-family: var(--font-display, 'Helvetica Condensed', 'Archivo Narrow', sans-serif); font-size: clamp(2.6rem, 5vw, 4.2rem); font-weight: 700; letter-spacing: -0.02em; line-height: 0.84; text-transform: uppercase; }\n.ds-file__filing { display: flex; flex-direction: column; align-items: flex-end; gap: 0.2rem; color: #444636; font-family: var(--font-tech, 'Kairos Sans', 'Rajdhani', sans-serif); font-size: 0.56rem; letter-spacing: 0.1em; line-height: 1.3; text-transform: uppercase; white-space: nowrap; }\n.ds-file__filing span:first-child { color: var(--red-ink, #7f231b); font-weight: 600; }\n.ds-file__subtitle { display: block; margin-bottom: 0.8rem; color: #474838; font-family: var(--font-type, 'ITC American Typewriter', 'Courier Prime', monospace); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; }\n.ds-file__abstract { display: block; max-width: 68ch; color: #333529; font-size: 0.92rem; line-height: 1.64; }\n.ds-file__cue { display: flex; align-items: center; gap: 0.5rem; margin-top: 1.25rem; color: #474838; font-family: var(--font-type, 'ITC American Typewriter', 'Courier Prime', monospace); font-size: 0.56rem; letter-spacing: 0.14em; text-transform: uppercase; }\n.ds-file__plus { position: relative; display: inline-grid; place-items: center; width: 1.35rem; height: 1.35rem; border: 1px solid rgb(26 28 22 / 0.38); }\n.ds-file__plus::before, .ds-file__plus::after { content: \"\"; position: absolute; background: var(--red, #a7362a); }\n.ds-file__plus::before { width: 9px; height: 1px; }\n.ds-file__plus::after { width: 1px; height: 9px; }\n.ds-file[data-open=\"true\"] .ds-file__plus { transform: rotate(45deg); }\n.ds-file__plus { transition: transform 0.28s ease; }\n.ds-file__summary:focus-visible { outline: 2px solid var(--red-bright, #bd4436); outline-offset: -2px; }"
+      "refersTo": "page",
+      "description": "The signature wizard photograph: a paper-matted plate with a sepia misprint, pointer parallax, halftone grain, and a one-shot develop.",
+      "html": "<figure class=\"ds-photo\"><div class=\"ds-photo__frame\"><div class=\"ds-photo__living\"><img class=\"ds-photo__misprint\" src=\"/evidence/sentinel.png\" alt=\"\" aria-hidden=\"true\" /><img class=\"ds-photo__plate\" src=\"/evidence/sentinel.png\" alt=\"Sentinel interface, a live deployment capture.\" /><span class=\"ds-photo__grain\" aria-hidden=\"true\"></span></div></div><figcaption><span>Plate I</span> Live interface capture · 26 Oct 2026 · sentinel-sentry.vercel.app</figcaption></figure>",
+      "css": ".ds-photo { margin: 0; }\n.ds-photo__frame { --photo-x: 0; --photo-y: 0; position: relative; aspect-ratio: 16 / 10; overflow: hidden; padding: 0.32rem; border: 1px solid var(--ink, #17140e); border-radius: 0; background: var(--paper-deep, #e4d5b6); }\n.ds-photo__living { position: absolute; inset: 0.32rem; overflow: hidden; }\n.ds-photo__misprint, .ds-photo__plate { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; }\n.ds-photo__misprint { filter: sepia(1) saturate(2) hue-rotate(-18deg) contrast(1.06) blur(0.5px); mix-blend-mode: multiply; opacity: 0.2; transform: translate(calc(var(--photo-x) * 3px), calc(var(--photo-y) * 2px)) scale(1.04); transition: transform 0.45s ease, opacity 0.45s ease; }\n.ds-photo__plate { filter: sepia(0.62) saturate(0.72) contrast(1.04); transform: translate(calc(var(--photo-x) * -2px), calc(var(--photo-y) * -1.5px)) scale(1.01); transition: filter 0.5s ease, transform 0.4s ease; }\n.ds-photo__frame:hover .ds-photo__plate { filter: sepia(0.16) saturate(1.08); transform: translate(calc(var(--photo-x) * -7px), calc(var(--photo-y) * -5px)) scale(1.04); }\n.ds-photo__frame:hover .ds-photo__misprint { opacity: 0.28; transform: translate(calc(var(--photo-x) * 4px), calc(var(--photo-y) * 3px)) scale(1.05); }\n.ds-photo__grain { position: absolute; inset: 0; background-image: radial-gradient(rgb(23 20 14 / 0.15) 0.55px, transparent 0.65px); background-size: 3px 3px; mix-blend-mode: multiply; opacity: 0.55; pointer-events: none; }\n.ds-photo figcaption { display: flex; flex-wrap: wrap; gap: 0.3rem 0.55rem; padding-top: 0.5rem; color: var(--ink-faint, #6b5f4b); font-family: var(--font-type, 'Courier Prime', monospace); font-size: 0.57rem; line-height: 1.45; }\n.ds-photo figcaption span { color: var(--red, #9d2c1f); font-weight: 700; text-transform: uppercase; }"
     },
     {
-      "name": "Evidence Plate",
-      "kind": "card",
-      "refersTo": "evidence-plate",
-      "description": "A live-deployment capture set on a carbon mat, captioned with figure number and capture provenance.",
-      "html": "<figure class=\"ds-plate\"><img class=\"ds-plate__img\" src=\"/evidence/sentinel.png\" alt=\"Sentinel landing page: a dark green interface built around an audit dashboard.\" /><figcaption class=\"ds-plate__cap\"><span>Fig. 01</span>Live interface capture · 26 Oct 2026 · sentinel-sentry.vercel.app</figcaption></figure>",
-      "css": ".ds-plate { margin: 0; padding: 0.45rem; border: 1px solid rgb(26 28 22 / 0.3); border-radius: 0; background: var(--carbon-frame, #0d0f0b); transform: rotate(-0.35deg); }\n.ds-plate__img { display: block; width: 100%; height: auto; }\n.ds-plate__cap { display: flex; flex-wrap: wrap; gap: 0.4rem 0.55rem; padding: 0.5rem 0.25rem 0.1rem; color: #c2bdaa; font-family: var(--font-type, 'ITC American Typewriter', 'Courier Prime', monospace); font-size: 0.56rem; letter-spacing: 0.04em; line-height: 1.45; }\n.ds-plate__cap span { color: #e0a094; text-transform: uppercase; }"
-    },
-    {
-      "name": "Stack Tag",
-      "kind": "chip",
-      "refersTo": "tag-chip",
-      "description": "Technical-record chip: hairline outline on translucent white over paper, in the instrument face.",
-      "html": "<ul class=\"ds-tags\"><li>Next.js 16</li><li>React 19</li><li>FastAPI</li><li>PostgreSQL</li><li>Gemini</li></ul>",
-      "css": ".ds-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; margin: 0; padding: 0; list-style: none; }\n.ds-tags li { padding: 0.3rem 0.45rem; border: 1px solid rgb(26 28 22 / 0.28); border-radius: 0; background: rgb(255 255 255 / 0.18); color: #3f4132; font-family: var(--font-tech, 'Kairos Sans', 'Rajdhani', sans-serif); font-size: 0.56rem; letter-spacing: 0.08em; text-transform: uppercase; }"
-    },
-    {
-      "name": "Field Kit Table",
+      "name": "Broadsheet Story",
       "kind": "custom",
-      "refersTo": "kit-sheet",
-      "description": "Three-column evidence table on the cooler kit stock: capability, working set, and the exhibit that proves it.",
-      "html": "<div class=\"ds-kit\"><table class=\"ds-kit__table\"><caption class=\"ds-kit__caption\">Capabilities evidenced by the projects in this archive</caption><thead><tr><th scope=\"col\">Capability</th><th scope=\"col\">Working set</th><th scope=\"col\">Evidence</th></tr></thead><tbody><tr><th scope=\"row\">Frontend</th><td>React 19 · Next.js 16 · TypeScript · Tailwind v4</td><td>Sentinel / GameForge</td></tr><tr><th scope=\"row\">Backend</th><td>Node.js · Express · REST · PostgreSQL · Drizzle</td><td>Sentinel</td></tr><tr><th scope=\"row\">AI / data</th><td>Python · FastAPI · Gemini · multi-agent pipelines</td><td>Sentinel / GameForge</td></tr></tbody></table></div>",
-      "css": ".ds-kit { padding: clamp(1.2rem, 3vw, 2rem); background: var(--stock-kit, #d3d4bf); color: var(--paper-ink, #1a1c16); border-radius: 0; box-shadow: 0 30px 70px rgb(0 0 0 / 0.46), 0 8px 22px rgb(0 0 0 / 0.3); transform: rotate(-0.35deg); }\n.ds-kit__caption { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); }\n.ds-kit__table { width: 100%; border-collapse: collapse; font-size: 0.78rem; line-height: 1.5; }\n.ds-kit__table thead th { padding: 0.4rem 0.6rem 0.6rem; border-bottom: 1px solid rgb(26 28 22 / 0.4); color: #575a48; font-family: var(--font-type, 'ITC American Typewriter', 'Courier Prime', monospace); font-size: 0.56rem; font-weight: 400; letter-spacing: 0.16em; text-align: left; text-transform: uppercase; }\n.ds-kit__table tbody th { width: 17%; padding: 0.85rem 0.6rem; border-bottom: 1px solid rgb(26 28 22 / 0.18); color: #1f2119; font-family: var(--font-tech, 'Kairos Sans', 'Rajdhani', sans-serif); font-size: 0.62rem; font-weight: 600; letter-spacing: 0.1em; text-align: left; text-transform: uppercase; vertical-align: top; }\n.ds-kit__table tbody td { padding: 0.85rem 0.6rem; border-bottom: 1px solid rgb(26 28 22 / 0.18); color: #333528; vertical-align: top; }\n.ds-kit__table tbody td:last-child { color: #3b3d2f; font-family: var(--font-tech, 'Kairos Sans', 'Rajdhani', sans-serif); font-size: 0.6rem; letter-spacing: 0.06em; text-transform: uppercase; }\n.ds-kit__table tbody tr:hover { background: rgb(255 255 255 / 0.18); }"
+      "refersTo": "page",
+      "description": "A project reported as a front-page story: title, italic deck, byline metadata, drop cap, numbered findings, and working set.",
+      "html": "<article class=\"ds-story\"><header><h3>Sentinel</h3><p class=\"ds-story__deck\">AI financial audit platform</p><p class=\"ds-story__meta\">Report one · Live / three services · 2026</p></header><div class=\"ds-story__body\"><p class=\"ds-story__lede\">A proactive audit system. Seven deterministic Python detectors flag transaction anomalies; a three-agent Gemini pipeline investigates only the candidates that survive.</p><h4>What was built</h4><ol class=\"ds-story__findings\"><li>Seven deterministic detectors and a two-layer risk score.</li><li>Next.js, Express, FastAPI, and PostgreSQL across three deployed services.</li></ol><p class=\"ds-story__stack\"><span>Working set</span>Next.js 16 · React 19 · TypeScript · FastAPI · PostgreSQL · Gemini</p></div></article>",
+      "css": ".ds-story { border-top: 3px double var(--ink, #17140e); padding-top: 1.5rem; color: var(--ink-soft, #3d3629); }\n.ds-story h3 { margin: 0; color: var(--ink, #17140e); font-family: var(--font-display, 'Besley', serif); font-size: clamp(2.5rem, 6vw, 5.8rem); font-weight: 900; letter-spacing: -0.03em; line-height: 0.9; }\n.ds-story__deck { max-width: 52ch; margin: 0.2rem 0 0; color: var(--ink-soft, #3d3629); font-size: 1.1rem; font-style: italic; }\n.ds-story__meta { max-width: 52ch; margin: 0.55rem 0 0; padding-top: 0.38rem; border-top: 1px solid rgb(23 20 14 / 0.16); color: var(--ink-faint, #6b5f4b); font-family: var(--font-type, 'Courier Prime', monospace); font-size: 0.57rem; letter-spacing: 0.09em; text-transform: uppercase; }\n.ds-story__body { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgb(23 20 14 / 0.34); }\n.ds-story__lede { max-width: 64ch; margin: 0 0 1rem; font-size: 0.98rem; line-height: 1.68; }\n.ds-story__lede::first-letter { float: left; padding: 0.08em 0.1em 0 0; color: var(--red, #9d2c1f); font-family: var(--font-display, 'Besley', serif); font-size: 3.9em; font-weight: 700; line-height: 0.74; }\n.ds-story h4 { margin: 1.4rem 0 0.65rem; padding-bottom: 0.28rem; border-bottom: 1px solid rgb(23 20 14 / 0.34); color: var(--ink, #17140e); font-family: var(--font-type, 'Courier Prime', monospace); font-size: 0.57rem; letter-spacing: 0.13em; text-transform: uppercase; }\n.ds-story__findings { display: grid; gap: 0.55rem; margin: 0 0 1.25rem; padding: 0 0 0 1.6rem; font-size: 0.9rem; line-height: 1.55; }\n.ds-story__stack { margin: 0; padding-top: 0.65rem; border-top: 1px solid rgb(23 20 14 / 0.16); color: var(--ink-faint, #6b5f4b); font-family: var(--font-type, 'Courier Prime', monospace); font-size: 0.6rem; letter-spacing: 0.05em; line-height: 1.7; text-transform: uppercase; }\n.ds-story__stack span { display: block; margin-bottom: 0.15rem; color: var(--red, #9d2c1f); font-size: 0.56rem; letter-spacing: 0.12em; }"
     },
     {
-      "name": "Channel Row",
+      "name": "Workshop Table",
       "kind": "custom",
-      "refersTo": "ledger-row",
-      "description": "Checkout ledger row: labelled channel, value, and an arrow cell, divided by hairlines and indenting on hover.",
-      "html": "<a class=\"ds-channel\" href=\"mailto:devinfebrian20@gmail.com\"><span class=\"ds-channel__label\">Email</span><span class=\"ds-channel__value\">devinfebrian20@gmail.com</span><span class=\"ds-channel__arrow\" aria-hidden=\"true\"><svg viewBox=\"0 0 16 16\" width=\"11\" height=\"11\"><path d=\"M4 12 12 4M6 4h6v6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/></svg></span></a>",
-      "css": ".ds-channel { display: grid; grid-template-columns: 4.6rem minmax(0, 1fr) auto; gap: 0.8rem; align-items: baseline; padding: 1rem 0.15rem; border-bottom: 1px solid var(--line, rgb(232 225 208 / 0.16)); color: rgb(232 225 208 / 0.72); text-decoration: none; transition: color 0.2s ease, padding-left 0.2s ease; }\n.ds-channel:hover { padding-left: 0.5rem; color: var(--paper, #e8e1d0); }\n.ds-channel:focus-visible { outline: 2px solid var(--red-bright, #bd4436); outline-offset: 3px; }\n.ds-channel__label { color: rgb(232 225 208 / 0.6); font-family: var(--font-type, 'ITC American Typewriter', 'Courier Prime', monospace); font-size: 0.56rem; letter-spacing: 0.14em; text-transform: uppercase; }\n.ds-channel__value { font-size: 0.8rem; overflow-wrap: anywhere; }\n.ds-channel__arrow { color: var(--red, #a7362a); display: inline-flex; }"
+      "refersTo": "page",
+      "description": "The working set as a full-width ruled broadsheet table, with capability, tools, and evidence.",
+      "html": "<table class=\"ds-workshop\"><thead><tr><th scope=\"col\">Capability</th><th scope=\"col\">Working set</th><th scope=\"col\">Evidence</th></tr></thead><tbody><tr><th scope=\"row\">Frontend</th><td>React 19 · Next.js 16 · TypeScript · Tailwind v4</td><td>Sentinel / GameForge</td></tr><tr><th scope=\"row\">AI / data</th><td>Python · FastAPI · Gemini · multi-agent pipelines</td><td>Sentinel / GameForge</td></tr></tbody></table>",
+      "css": ".ds-workshop { width: 100%; border-collapse: collapse; color: var(--ink-soft, #3d3629); font-family: var(--font-body, 'Newsreader', serif); font-size: 0.9rem; line-height: 1.5; }\n.ds-workshop thead th { padding: 0.45rem 0.65rem 0.6rem; border-bottom: 1px solid var(--ink, #17140e); color: var(--ink-faint, #6b5f4b); font-family: var(--font-type, 'Courier Prime', monospace); font-size: 0.56rem; font-weight: 400; letter-spacing: 0.14em; text-align: left; text-transform: uppercase; }\n.ds-workshop tbody th { width: 17%; padding: 0.9rem 0.65rem; border-bottom: 1px solid rgb(23 20 14 / 0.16); color: var(--ink, #17140e); font-family: var(--font-display, 'Besley', serif); font-size: 1.05rem; font-weight: 700; text-align: left; vertical-align: top; }\n.ds-workshop tbody td { padding: 0.9rem 0.65rem; border-bottom: 1px solid rgb(23 20 14 / 0.16); vertical-align: top; }\n.ds-workshop tbody td:last-child { color: var(--ink-faint, #6b5f4b); font-family: var(--font-type, 'Courier Prime', monospace); font-size: 0.58rem; letter-spacing: 0.05em; text-transform: uppercase; }"
     },
     {
-      "name": "Dossier Sheet",
-      "kind": "card",
-      "refersTo": "sheet",
-      "description": "The sheet primitive: bone stock, -1.1deg tilt, two-layer downward shadow, file line above a display name.",
-      "html": "<article class=\"ds-sheet\"><div class=\"ds-sheet__fileline\"><span>Case file DF-09</span><span>Wrenwood archive / 2026</span></div><h3 class=\"ds-sheet__name\">Devin Febrian</h3><p class=\"ds-sheet__role\">Fullstack engineer <span>/</span> Systems &amp; machine learning</p><p class=\"ds-sheet__note\">A working file of systems built, shipped, and still under observation. The evidence follows.</p><div class=\"ds-sheet__meta\"><span>Origin / Indonesia</span><span>Rev / 2026.10</span></div></article>",
-      "css": ".ds-sheet { padding: clamp(1.4rem, 2.5vw, 2.2rem) clamp(1.4rem, 2.8vw, 2.6rem); background: var(--paper, #e8e1d0); color: var(--paper-ink, #1a1c16); border-radius: 0; box-shadow: 0 40px 90px rgb(0 0 0 / 0.56), 0 10px 32px rgb(0 0 0 / 0.4); transform: rotate(-1.1deg); }\n.ds-sheet__fileline { display: flex; justify-content: space-between; gap: 1rem; padding-bottom: 0.65rem; border-bottom: 1px solid rgb(26 28 22 / 0.28); color: #3f4237; font-family: var(--font-type, 'ITC American Typewriter', 'Courier Prime', monospace); font-size: 0.56rem; letter-spacing: 0.14em; text-transform: uppercase; }\n.ds-sheet__name { margin: 1.05rem 0 0.55rem; color: #14160f; font-family: var(--font-display, 'Helvetica Condensed', 'Archivo Narrow', sans-serif); font-size: clamp(2.6rem, 6vw, 4rem); font-weight: 700; letter-spacing: -0.025em; line-height: 0.83; text-transform: uppercase; }\n.ds-sheet__role { margin: 0; color: #4d4f42; font-family: var(--font-type, 'ITC American Typewriter', 'Courier Prime', monospace); font-size: 0.62rem; letter-spacing: 0.17em; text-transform: uppercase; }\n.ds-sheet__role span { color: var(--red, #a7362a); }\n.ds-sheet__note { max-width: 44ch; margin: 1.15rem 0 0; color: #393b30; font-size: 0.91rem; line-height: 1.66; }\n.ds-sheet__meta { display: flex; flex-wrap: wrap; gap: 0.45rem 1.2rem; margin-top: 0.9rem; padding-top: 0.7rem; border-top: 1px solid rgb(26 28 22 / 0.2); color: #5b5b4c; font-family: var(--font-type, 'ITC American Typewriter', 'Courier Prime', monospace); font-size: 0.56rem; letter-spacing: 0.08em; text-transform: uppercase; }"
+      "name": "Correspondence Row",
+      "kind": "custom",
+      "refersTo": "channel-row",
+      "description": "Ruled contact row with a typewritten label, value, and drawn arrow; indent on hover.",
+      "html": "<a class=\"ds-row\" href=\"mailto:devinfebrian20@gmail.com\"><span class=\"ds-row__label\">Email</span><span class=\"ds-row__value\">devinfebrian20@gmail.com</span><svg viewBox=\"0 0 16 16\" width=\"11\" height=\"11\" aria-hidden=\"true\"><path d=\"M4 12 12.5 3.5M5.5 3.5h7v7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/></svg></a>",
+      "css": ".ds-row { display: grid; grid-template-columns: 4.6rem minmax(0, 1fr) auto; gap: 0.7rem; align-items: baseline; padding: 0.9rem 0.15rem; border-bottom: 1px solid rgb(23 20 14 / 0.16); color: var(--ink-soft, #3d3629); text-decoration: none; transition: color 0.2s ease, padding-left 0.2s ease; }\n.ds-row:hover { padding-left: 0.4rem; color: var(--ink, #17140e); }\n.ds-row:focus-visible { outline: 2px solid var(--red, #9d2c1f); outline-offset: 2px; }\n.ds-row__label { color: var(--ink-faint, #6b5f4b); font-family: var(--font-type, 'Courier Prime', monospace); font-size: 0.57rem; letter-spacing: 0.12em; text-transform: uppercase; }\n.ds-row__value { font-family: var(--font-body, 'Newsreader', serif); font-size: 0.9rem; overflow-wrap: anywhere; }\n.ds-row svg { color: var(--red, #9d2c1f); }"
     }
   ],
   "narrative": {
-    "northStar": "The Recovered Case File",
-    "overview": "The page is not a portfolio with a theme applied; it is an artifact with a provenance problem. A carbon corridor recedes into fog behind every screen, and the content sits on physical sheets of bone paper laid over it — dossier cover, intake form, exhibit folders, field-kit sheet, checkout ledger. The visitor is reading a file that was pulled from an archive at night, not being sold a service. That single premise decides the material system: light exists only where paper exists, dark is steel and shadow, and red is the case examiner's ink.\n\nDensity is editorial rather than sparse. Every sheet carries institutional furniture — file lines, case IDs, filing columns, numbered findings, signature rows, footnotes — set in four voices: condensed display for names and signage, typewriter for index and case metadata, a humanist body for reading, and a condensed technical face for measurements and tags. Sheets are tilted by fractions of a degree and layered with soft downward shadow so they read as stacked paper rather than as UI cards. There is no glow, no gore, no game imagery, no glassmorphism, and no rounded corner anywhere in the build.\n\nMotion is the room, not the content. A scroll-driven camera dollies down the corridor, dust drifts, one fluorescent lamp flickers, and the red thread pinned to the right edge fills as the page advances. Reveals are short and physical (a sheet settling, a folder unfolding). All of it yields at once to `prefers-reduced-motion`, which freezes the camera at the top of the corridor, steadies the lamp, and drops every transition to effectively zero.",
+    "northStar": "The Living Morning Edition",
+    "overview": "The portfolio is not a website wearing newsprint; it is one edition of a wizarding broadsheet, laid on a lit press-room desk. The dominant material is warm paper: a full-height sheet printed in black ink with one oxblood accent. Behind it, and visible only in the margins and between the printed sheets, the scene holds a wooden desk, a lit wall, and loose copies of the same paper. The reader is holding the edition, not browsing a product page.\n\nThe page is organised as newspaper furniture rather than cards. A centred masthead and edition line open the front page; the lead story, a living photograph, and a printed contents column share the first viewport as three tracks. Chapters below are broadsheet departments (Statement, Portfolio, Workshop, Letters), separated by fold bands and each carrying a folio and section letter. Every article uses headline, italic deck, byline rule, drop cap, numbered findings, and a working-set line. There are no rounded cards, no glass, no glowing borders, and no icon tiles.\n\nMovement is the paper's own: a fold lip opens as a section enters, a living photograph develops once and answers the pointer, and the press-room camera drifts with the scroll. Sound is a press-room bed that starts only when asked. Every motion collapses under prefers-reduced-motion, where the content remains exactly as legible.",
     "keyCharacteristics": [
-      "Two material families only: carbon ground (#080a07) and paper stocks (#e8e1d0 plus four tinted stocks).",
-      "One accent: case red (#a7362a) used as stamp, tick, rule, and one solid anchor.",
-      "Four type families, each with a fixed job; no fifth voice.",
-      "Zero corner radius; the only curve is the 5px scroll-thread knot.",
-      "Structural furniture on every surface: file lines, case IDs, filing columns, footnotes.",
-      "Fixed chrome: masthead above, index rail left, red scroll thread right.",
-      "Depth from layered soft shadow under paper, never from glow or gradient borders.",
-      "Decorative 3D is `aria-hidden`, `pointer-events: none`, and has a flat gradient fallback."
+      "One ground: warm newsprint (#efe4cb) carrying near-black ink (#17140e).",
+      "One accent: oxblood (#9d2c1f), used for stamps, folios, marks, one front-page action, and hover ink.",
+      "Four type voices with fixed jobs: Besley (masthead/headlines), Newsreader (reading), Courier Prime (metadata), Archivo Narrow (technical labels).",
+      "Zero corner radius; the only curves are the circular press-sound bars.",
+      "Page furniture on every section: edition line, section letter, folio, fold band, dog-ear.",
+      "A true three-column front page: story, living photograph, contents.",
+      "Depth from a lit desk, page edge shadow, and a folded corner; no glow or glass.",
+      "Decorative R3F scene is aria-hidden, pointer-events none, and has a flat fallback."
     ],
     "rules": [
       {
-        "name": "The Paper Is the Only Light Rule",
+        "name": "The Paper Ground Rule",
         "section": "colors",
-        "body": "Paper stocks are the only light surfaces in the system. No dark card sits on a sheet, no light card floats on the corridor, and no surface is translucent. If an element needs a light background, it is a sheet with a stock, a tilt, and a shadow."
+        "body": "Paper owns the page. Do not place dark cards on the edition, translucent panels over it, or full-bleed dark sections inside the broadsheet; dark appears only as ink on paper or as the desk beyond the sheet edge."
       },
       {
-        "name": "The One Red Rule",
+        "name": "The One Oxblood Rule",
         "section": "colors",
-        "body": "Case red covers under ten percent of any screen and appears only as stamp, tick, hairline, numeral, thread, or the single solid anchor. It never fills a text block, never colours body copy, and never appears twice as two solid fields in one viewport."
-      },
-      {
-        "name": "The Lamp Rule",
-        "section": "colors",
-        "body": "Lamp green belongs to the 3D room. It is never applied to text, borders, chips, or states in the DOM; the only green a user reads is light falling on concrete."
+        "body": "Oxblood covers less than ten percent of a viewport and appears as mark, rule, stamp, numeral, or one solid action. It is never a background for reading copy and never appears as two competing solid fields."
       },
       {
         "name": "The Four Voices Rule",
         "section": "typography",
-        "body": "Exactly four families ship: condensed display, typewriter label, humanist body, technical tag. A fifth face is a system change, not a component decision."
+        "body": "Exactly four families ship. A fifth face is a system change, not a component decision."
       },
       {
-        "name": "The Typewriter Metadata Rule",
+        "name": "The Three-Job Rule",
         "section": "typography",
-        "body": "Anything that identifies or locates — case ID, file line, caption, date, index entry, footnote — is set in the typewriter voice, uppercase, tracked. Identification never borrows the body face."
+        "body": "Besley carries the masthead, section headings, and article titles; Newsreader carries all reading copy; Courier Prime carries anything that identifies, dates, or locates; Archivo Narrow carries technical working-set labels. No role borrows another voice for variety."
       },
       {
-        "name": "The Measure Rule",
+        "name": "The Reading Measure Rule",
         "section": "typography",
-        "body": "Reading copy never exceeds 68ch, and paper body copy never drops below 0.78rem (file notes and footnotes sit at 0.66rem, the one deliberate step below it). Display type is allowed to be huge; body type is not allowed to be small."
+        "body": "Running copy stays between 64 and 68ch. Section headings may be huge; body copy never drops below 0.78rem, except the deliberate 0.52–0.57rem metadata band."
       },
       {
-        "name": "The Rail Gutter Rule",
+        "name": "The Edition Width Rule",
         "section": "layout",
-        "body": "Chapters reserve `clamp(3rem, 22vw, 14rem)` on the left. Nothing is placed inside that gutter except the fixed index; content that ignores it collides with navigation."
+        "body": "Masthead, tabs, and sheet share one width token. Changing one without the others breaks the illusion of a single printed object."
       },
       {
-        "name": "The Frame Over Paper Rule",
+        "name": "The Three-Track Rule",
         "section": "layout",
-        "body": "Fixed chrome (masthead, index, thread) always sits above content in z-order and never moves; only the sheets scroll. Paper is the only thing allowed to slide under the frame."
+        "body": "The front page is story, photograph, contents — not a hero plus sidebar. If a fourth element is needed, it belongs in the contents column or below the fold, never as a fourth track."
       },
       {
-        "name": "The Sheet Floats, Nothing Glows Rule",
+        "name": "The Lit Paper Rule",
         "section": "elevation",
-        "body": "Elevation is the paper sheet's relationship to a dark room. Any new surface gets a stock, a tilt, and the two-layer downward shadow; no element may use a glow, an inner shadow, a luminous border, or a coloured halo."
+        "body": "Depth comes from paper against a lit desk, never from a coloured glow, gradient border, or glass panel. A new surface either sits on the paper or is the paper."
       },
       {
-        "name": "The Downward Shadow Rule",
+        "name": "The One Fold Rule",
         "section": "elevation",
-        "body": "Shadow offsets are positive-y only, blur is at least three times the offset, and opacity never rises above 0.56. A sharp shadow is a lighting mistake, not a style."
+        "body": "Each chapter gets one fold lip and one dog-ear. Fold decoration never repeats inside a section or appears on the front page."
       },
       {
-        "name": "The Square-Corner Rule",
+        "name": "The Zero Radius Rule",
         "section": "shapes",
-        "body": "Radius is 0px. The single 50% value in the system is the scroll-thread knot. A rounded corner anywhere is a break in the world."
+        "body": "Corners are square. The one circular shape in the interface is a press-sound bar; a rounded card is a break in the world."
       },
       {
-        "name": "The Two-Degree Rule",
+        "name": "The Printed Fold Rule",
         "section": "shapes",
-        "body": "A sheet may tilt by up to two degrees; the cover holds at −1.1deg, and no tilt survives below 900px. Tilting is stacking, not styling."
-      },
-      {
-        "name": "The Printed Sheet Rule",
-        "section": "components",
-        "body": "Every paper section body — intake, exhibits, field kit — is a sheet with its own stock, tilt, punch strip, and two-layer shadow. The checkout ledger is the one deliberate exception: the closing page is printed straight on the dark. A card is never allowed to float without a sheet beneath it."
-      },
-      {
-        "name": "The Document Furniture Rule",
-        "section": "components",
-        "body": "Sheets carry institutional furniture — file line, case ID, filing column, footnote, signature. A sheet without a file line is a card in costume, and cards are not part of this world."
-      },
-      {
-        "name": "The One Solid Anchor Rule",
-        "section": "components",
-        "body": "Exactly one solid red control appears in the world: the cover's `OPEN THE EXHIBITS` anchor. Further solid red fields dilute it into decoration."
+        "body": "A fold is always a flat printed device: a crease, a lip, or a dog-ear. Do not simulate paper with a gradient card, a glass overlay, or a photograph of paper."
       }
     ],
     "dos": [
-      "Do set every paper section body on a sheet with a named stock, a tilt of two degrees or less (cover −1.1deg, intake +0.7deg, exhibits −0.22/+0.2deg, kit −0.35deg), and the two-layer downward shadow.",
-      "Do reserve `clamp(3rem, 22vw, 14rem)` of left chapter padding for the fixed index rail, and `scroll-margin-top: 6.5rem` for the masthead.",
-      "Do identify everything in the typewriter voice: case IDs, file lines, captions, index entries, footnotes, channel labels — uppercase at 0.56–0.62rem with 0.08–0.32em tracking.",
-      "Do keep reading copy between 44ch and 68ch, and hold paper body copy at 0.78rem or larger (file notes and footnotes excepted at 0.66rem).",
-      "Do confine red to stamp, tick, hairline, numeral, thread, one anchor fill, and hover states (`#a7362a` → `#bd4436`).",
-      "Do reveal with `cubic-bezier(0.19, 1, 0.22, 1)` — 0.95s for a sheet settling, 0.48s for a folder unfolding — and keep ordinary state changes at 0.2–0.28s ease.",
-      "Do keep the canvas `aria-hidden` with `pointer-events: none`, lazy-loaded, and backed by the static gradient fallback.",
-      "Do cut every tilt, transform-heavy transition, camera dolly, and lamp flicker under `prefers-reduced-motion`, and leave `scroll-behavior: auto` in that mode.",
-      "Do keep audio off until the sound control is pressed, and state the choice on the control (`aria-pressed`, `Sound on/off`)."
+      "Do keep the edition width, fixed chrome height, and first-viewport three-track grid aligned; masthead, tabs, and sheet are one printed object.",
+      "Do use Besley 900 for the masthead and section headings, Besley 700 for the lead, Newsreader for all reading copy, Courier Prime for metadata, and Archivo Narrow for technical labels.",
+      "Do hold reading copy to 64–68ch and keep the front page headline under 18ch.",
+      "Do preserve the one oxblood field on the front page and use oxblood elsewhere only as mark, stamp, rule, drop cap, folio, or hover.",
+      "Do place a fold lip and one dog-ear at each chapter, and a 3px double rule above each department.",
+      "Do draw every arrow as an inline SVG with a consistent 1.4 stroke.",
+      "Do make every motion opt-out-safe: the page must be complete and readable with reduced motion, no WebGL, and sound off.",
+      "Do keep the press-room scene in cream/gold paper tones so it reads as a lit desk, not a dark backdrop."
     ],
     "donts": [
-      "Don't introduce a second accent, a glow, a luminous border, a gradient border, or a halo; lamp green belongs to the 3D room and never to a UI surface.",
-      "Don't round a corner. Radius is 0px everywhere; the single 50% in the system is the 5px scroll-thread knot.",
-      "Don't place a dark card on a paper sheet, a light card on the corridor, or any translucent panel — paper is the only light surface.",
-      "Don't reuse the 3px solid `#6f231a` stamped edge outside the cover anchor; the system elevation vocabulary is soft and downward only.",
-      "Don't set arrows, disclosure marks, or icons as text glyphs (↗, ↓, +). Draw them, inline.",
-      "Don't add inputs, validation, or form state to the intake sheet. It is a printed record; making it interactive is a new component and a new world decision.",
-      "Don't add a fifth type family, restyle a chapter heading in the body face, or set display type below 2.2rem.",
-      "Don't ship a label step smaller than the existing 0.56rem, and don't use that step for anything read as running copy.",
-      "Don't use stock photography, game assets, character art, or franchise logos; every raster must be a dated capture of a real deployment with its provenance recorded.",
-      "Don't let the corridor, dust, fog, or motion become a prerequisite for content: text must be readable with WebGL absent, motion reduced, or audio off."
+      "Don't introduce rounded cards, glass, glow, gradient borders, or a second accent; the world is paper, ink, and one red.",
+      "Don't set a kicker or eyebrow above a story headline; the metadata line belongs below the deck as a byline.",
+      "Don't make the floating photographs idle forever; they develop once and respond to attention.",
+      "Don't use franchise logos, character art, crests, or other protected assets; this is an independent homage built from real project captures.",
+      "Don't use stock photography or invented screenshots; the only shipping rasters are the dated Sentinel and GameForge captures with provenance in public/evidence/PROVENANCE.md.",
+      "Don't place a fifth type family, set body copy in Besley, or use Courier Prime for running prose.",
+      "Don't let the WebGL scene or the sound control become a prerequisite for content or navigation."
     ]
   }
 }

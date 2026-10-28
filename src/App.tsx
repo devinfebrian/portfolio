@@ -44,7 +44,7 @@ export default function App() {
   return (
     <>
       <a className="skip-link" href="#main">
-        Skip to the file
+        Skip to the edition
       </a>
 
       <Suspense fallback={<div className="world-canvas world-canvas--fallback" aria-hidden="true" />}>
@@ -54,18 +54,19 @@ export default function App() {
       <div className="world-vignette" aria-hidden="true" />
 
       <Masthead />
-      <ScrollThread />
       <NavRail />
+      <ScrollThread />
 
-      <main id="main">
-        <Cover />
-        <Intake />
-        <Exhibits />
-        <FieldKit />
-        <Checkout />
-      </main>
-
-      <Footer />
+      <div className="edition">
+        <main id="main">
+          <Cover />
+          <Intake />
+          <Exhibits />
+          <FieldKit />
+          <Checkout />
+        </main>
+        <Footer />
+      </div>
     </>
   )
 }

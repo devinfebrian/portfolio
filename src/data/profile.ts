@@ -10,8 +10,9 @@ export const profile = {
 } as const
 
 export const navItems = [
-  { id: 'intake', label: 'Intake' },
-  { id: 'exhibits', label: 'Exhibits' },
-  { id: 'field-kit', label: 'Field kit' },
-  { id: 'checkout', label: 'Checkout' },
+  { id: 'top', label: 'Front page', mark: '1' },
+  { id: 'intake', label: 'Statement', mark: 'A' },
+  { id: 'exhibits', label: 'Portfolio', mark: 'B' },
+  { id: 'field-kit', label: 'Workshop', mark: 'C' },
+  { id: 'checkout', label: 'Letters', mark: 'D' },
 ] as const

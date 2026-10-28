@@ -1,6 +1,6 @@
-# Devin Febrian — Field Archive
+# Devin Febrian — The Febrian Prophet
 
-A single-page portfolio for a fullstack engineer, built as a case file from a haunted archive. The visual world is a survival-horror records room; the content is evidence, not advertising.
+A single-page portfolio for a fullstack engineer, published as a wizarding newspaper. The page is a morning edition: Devin's real work is reported as front-page news, with moving photographs, a press-room scene behind the paper, and one red editorial ink.
 
 ## Run
 
@@ -23,47 +23,46 @@ The production output is `dist/` and can be deployed to any static host (Vercel,
 - Bun
 - Vite 8
 - React 19
-- React Three Fiber + Three.js for the corridor, fog, dust, and scroll-driven camera
-- Fontsource for self-hosted open font files
+- React Three Fiber + Three.js for the floating paper and ink-mote press room
+- Fontsource for self-hosted typefaces
 - No backend, CMS, or analytics
 
 ## Editing content
 
 - Profile details and contact links: `src/data/profile.ts`
-- Project exhibits, case IDs, findings, links, and screenshots: `src/data/projects.ts`
+- Project reports, status, findings, links, and screenshots: `src/data/projects.ts`
 - Section copy: `src/sections/`
-- Short bio and intake fields: `src/sections/Intake.tsx`
-- Contact copy: `src/sections/Checkout.tsx`
+- Biography and reporter's notebook: `src/sections/Intake.tsx`
+- Correspondence copy: `src/sections/Checkout.tsx`
 
-The three exhibits are drawn from public repository READMEs and the live deployments. If the copy changes, update `src/data/projects.ts` rather than editing the rendered components.
+The three reports are drawn from public repository READMEs and the live deployments. If the copy changes, update `src/data/projects.ts` rather than editing the rendered components.
 
 ## Fonts
 
-The brief specifies ITC American Typewriter, Helvetica Condensed Bold, Neue Frutiger Roman, and Kairos Sans. This build ships open stand-ins because licensed files were not supplied:
+This edition self-hosts four faces through Fontsource:
 
-| Specified face | Build fallback |
+| Role | Face |
 | --- | --- |
-| ITC American Typewriter | Courier Prime |
-| Helvetica Condensed Bold | Archivo Narrow |
-| Neue Frutiger Roman | Open Sans |
-| Kairos Sans | Rajdhani |
+| Masthead and headlines | Besley |
+| Reading and body | Newsreader |
+| Typewritten metadata | Courier Prime |
+| Technical labels | Archivo Narrow |
 
-The CSS font stacks name the specified faces first, so installing them locally will take precedence. To self-host licensed files, add `@font-face` rules in `src/styles.css` and remove the Fontsource imports in `src/main.tsx`. The footer copy must be updated when the real faces ship.
+The footer records the typeface set. To swap a face, update the imports in `src/main.tsx`, the font stacks in `src/styles.css`, and the footer copy.
 
 ## Evidence
 
-`public/evidence/` contains live deployment screenshots used in the exhibits. Provenance is recorded in `public/evidence/PROVENANCE.md` and in each figure caption.
+`public/evidence/` contains live deployment screenshots used in the reports. Provenance is recorded in `public/evidence/PROVENANCE.md` and in each photograph caption.
 
 ## Motion and audio
 
-- The 3D corridor respects `prefers-reduced-motion`; it is decorative and marked `aria-hidden`.
-- Audio is off by default and only starts after the sound control is pressed.
+- The moving photographs and press-room scene respect `prefers-reduced-motion`.
+- The press-room sound is off by default and only starts after the Press control is pressed.
 - The first viewport and every section are keyboard reachable.
 
 ## Design context
 
 - `PRODUCT.md` — durable product truth and constraints
 - `DESIGN.md` — token-bearing design system recorded from the built world
-- `.impeccable/design.json` — machine-readable design-system sidecar
 - `.impeccable/surfaces/src-app-tsx.md` — direction contract for the page
 - `.impeccable/review/` — desktop, mobile, and section captures used during review

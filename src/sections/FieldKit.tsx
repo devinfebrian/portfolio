@@ -31,20 +31,20 @@ const rows = [
 export function FieldKit() {
   return (
     <section
-      className="chapter chapter--kit"
+      className="chapter chapter--workshop"
       id="field-kit"
       aria-labelledby="field-kit-heading"
     >
       <SectionHead
         id="field-kit-heading"
-        title="Field kit"
-        note="Evidence-indexed capabilities"
+        title="The workshop"
+        note="Section C · Working set"
       />
 
-      <div className="kit-sheet">
-        <table className="kit">
+      <div className="workshop">
+        <table className="workshop__table">
           <caption className="sr-only">
-            Capabilities evidenced by the projects in this archive
+            Capabilities evidenced by the projects in this edition
           </caption>
           <thead>
             <tr>
@@ -64,16 +64,16 @@ export function FieldKit() {
           </tbody>
         </table>
 
-        <div className="kit-sheet__foot">
+        <div className="workshop__foot">
           <p>
-            Every line is drawn from an exhibit above and its repository record. No percentage
+            Every line is drawn from a report above and its repository record. No percentage
             claims, no skill sliders.
           </p>
-          <p>
-            Current file built with Bun, React 19, Three.js, and React Three Fiber.
-          </p>
+          <p>This edition is built with Bun, React 19, Three.js, and React Three Fiber.</p>
         </div>
       </div>
+
+      <p className="folio">C1 · The Febrian Prophet · The workshop</p>
     </section>
   )
 }

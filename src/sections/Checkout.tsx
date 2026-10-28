@@ -1,4 +1,5 @@
 import { SectionHead } from '../components/SectionHead'
+import { ArrowOut } from '../components/Icon'
 import { profile } from '../data/profile'
 
 const channels = [
@@ -22,29 +23,29 @@ const channels = [
 export function Checkout() {
   return (
     <section
-      className="chapter chapter--checkout"
+      className="chapter chapter--letters"
       id="checkout"
       aria-labelledby="checkout-heading"
     >
       <SectionHead
         id="checkout-heading"
-        title="Checkout"
-        note="End of file / start of correspondence"
+        title="Letters to the editor"
+        note="Section D · Correspondence"
       />
 
-      <div className="checkout">
-        <div className="checkout__lead">
-          <p>If the file raises a question, open a channel.</p>
-          <a className="checkout__email" href={`mailto:${profile.email}`}>
+      <div className="letters">
+        <div className="letters__lead">
+          <h3>Write to the desk.</h3>
+          <p>
+            For work, collaboration, or a question about any report in this edition. The
+            repositories remain the primary record.
+          </p>
+          <a className="letters__email" href={`mailto:${profile.email}`}>
             {profile.email}
           </a>
-          <p className="checkout__context">
-            For work, collaboration, or a question about any exhibit. The repositories remain the
-            primary record.
-          </p>
         </div>
 
-        <div className="checkout__channels">
+        <div className="letters__channels">
           {channels.map((channel) => (
             <a
               key={channel.label}
@@ -52,19 +53,21 @@ export function Checkout() {
               target={channel.label === 'Email' ? undefined : '_blank'}
               rel={channel.label === 'Email' ? undefined : 'noreferrer'}
             >
-              <span className="checkout__channel">{channel.label}</span>
-              <span className="checkout__value">{channel.value}</span>
-              <span aria-hidden="true">↗</span>
+              <span className="letters__channel">{channel.label}</span>
+              <span className="letters__value">{channel.value}</span>
+              <ArrowOut className="icon" />
             </a>
           ))}
         </div>
 
-        <span className="checkout__stamp" aria-hidden="true">
-          Case
+        <span className="letters__stamp" aria-hidden="true">
+          Reply
           <br />
-          open
+          requested
         </span>
       </div>
+
+      <p className="folio">D1 · The Febrian Prophet · Letters</p>
     </section>
   )
 }
